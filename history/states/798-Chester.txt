@@ -1,0 +1,15 @@
+state={
+	id=798
+	name="STATE_798"
+	history = {
+		owner = NER
+		add_core_of = NER
+	}
+	provinces={
+		1282 1338 1619 3732 4342 6719 7462 10318 12202 12459 
+	}
+	manpower=698423
+	buildings_max_level_factor=1.000
+	state_category = rural
+	}
+}

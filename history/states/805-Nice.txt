@@ -1,0 +1,15 @@
+state={
+	id=805
+	name="STATE_805"
+	history = {
+		owner = ITA
+		add_core_of = ITA
+	}
+	provinces={
+		3959 9909 
+	}
+	manpower=103567
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	
+}

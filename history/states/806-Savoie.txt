@@ -1,0 +1,14 @@
+state={
+	id=806
+	name="STATE_806"
+	history = {
+		owner = ITA
+		add_core_of = ITA
+	}
+	provinces={
+		778 6609 9603 9745 11573 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}
