@@ -13,7 +13,27 @@ create_country_leader = {
 	name = "Jospeh P. Kennedy"
 	picture = "Portrait_NER_Joseph_P_Kennedy.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "William Z. Foster"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "William Dudley Pelley"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = nationalism
 	traits = {
 		#
 	}
@@ -59,10 +79,13 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	neutrality = 100
+	ultranationalism = 1
+	communism = 2
+	neutrality = 1
+	democratic = 96
