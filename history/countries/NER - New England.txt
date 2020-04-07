@@ -79,7 +79,7 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -87,5 +87,5 @@ set_politics = {
 set_popularities = {
 	ultranationalism = 1
 	communism = 2
-	neutrality = 1
-	democratic = 96
+	authoritarianism = 1
+	liberalism = 96
