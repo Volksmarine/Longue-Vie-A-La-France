@@ -90,3 +90,4 @@ set_popularities = {
 	authoritarianism = 1
 	liberalism = 49
 	conservativism = 47
+	}
