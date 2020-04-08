@@ -1,6 +1,6 @@
 ideologies = {
 	
-	Liberalism = {
+	liberalism = {
 	
 		types = {
 	
@@ -51,11 +51,11 @@ ideologies = {
 	}
 
 
-		Democratic Socialism = {
+	democratic_socialism = {
 	
 		types = {
 	
-			DemSoc = {
+			demsoc = {
 			}
 		}
 		
@@ -102,7 +102,7 @@ ideologies = {
 	}
 	
 	
-			Conservativism = {
+		conservativism = {
 	
 		types = {
 	
@@ -204,11 +204,11 @@ ideologies = {
 
 	}
 
-	UltraNationalism = {
+	ultranationalism = {
 	
 		types = {
 		
-			UltraNationalism = {
+			ultranationalism = {
 			}
 			
 			fascism_ideology = {
@@ -247,7 +247,7 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 	
-	Authoritarianism = {
+	authoritarianism = {
 	
 		types = {
 		
@@ -302,23 +302,18 @@ ideologies = {
 
 		ai_neutral = no # 
 	}
-}
 
-	Monarchism = {
+
+	monarchism = {
 	
 		types = {
 		
 			monarchism  = {
 			}
 			
-			oligarchism  = {
+			absolute  = {
 			}
 			
-			moderatism = {
-			}
-			
-			centrism = {
-			}
 		}
 
 		dynamic_faction_names = {
