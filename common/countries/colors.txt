@@ -706,7 +706,11 @@ SHL = {
 NER = {
 	color = rgb { 222 99 38 }
 	color_ui = rgb { 255 73 121 }
+}
 CAS = {
 	color = rgb { 89 89 89 }
 	color_ui = rgb { 89 89 89 }
-
+}
+AFS = {
+	color = rgb { 159 44 36 }
+	color_ui = rgb { 159 44 36 }

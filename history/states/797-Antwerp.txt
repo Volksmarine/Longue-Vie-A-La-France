@@ -1,0 +1,14 @@
+state={
+	id=808
+	name="STATE_808"
+	history = {
+		owner = AFS
+		add_core_of = AFS
+	}
+	provinces={
+		6598 11419 
+	}
+	manpower= 1733797
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}
