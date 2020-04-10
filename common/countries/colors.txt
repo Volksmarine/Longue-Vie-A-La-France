@@ -714,3 +714,8 @@ CAS = {
 AFS = {
 	color = rgb { 159 44 36 }
 	color_ui = rgb { 159 44 36 }
+}
+MIS = {
+	color = rgb { 43 179 36 }
+	color_ui = rgb { 43 179 36 }
+
