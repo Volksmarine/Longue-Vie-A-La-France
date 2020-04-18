@@ -1,0 +1,14 @@
+state={
+	id=810
+	name="STATE_810"
+	history = {
+		owner = CAL
+		add_core_of = CAL
+	}
+	provinces={
+		1904 8119 12736 
+	}
+	manpower=47890
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

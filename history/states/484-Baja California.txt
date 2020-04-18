@@ -1,0 +1,34 @@
+
+state={
+	id=484
+	name="STATE_484"
+
+	history={
+		owner = CAL
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			1892 = {
+				naval_base = 2
+
+			}
+			12736 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CAL
+		victory_points = {
+			12461 10 
+		}
+
+	}
+
+	provinces={
+		1562 1892 7964 7986 12374 12461 12859 13215 13216 
+	}
+	manpower=50841
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

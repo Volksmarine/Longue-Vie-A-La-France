@@ -718,4 +718,8 @@ AFS = {
 MIS = {
 	color = rgb { 43 179 36 }
 	color_ui = rgb { 43 179 36 }
+}
+CAL = {
+	color = rgb { 252 3 3 }
+	color_ui = rgb { 252 3 3 }
 

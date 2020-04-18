@@ -206,3 +206,5 @@ NER = "countries/New England.txt"
 CAS = "countries/Confederation of American States.txt"
 AFS = "countries/Antwerp Free State"
 MIS = "countries/Mississippi"
+CAL = "countries/California"
+
