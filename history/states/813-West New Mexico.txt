@@ -1,0 +1,28 @@
+
+state={
+	id=813
+	name="STATE_813"
+	resources={
+		aluminium=30.000
+	}
+
+	history={
+		owner = TEX
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = TEX
+		victory_points = {
+			4975 1 
+		}
+
+	}
+
+	provinces={
+		1954 3867 3883 4975 5038 8070 10740 10894 12684 12791 
+	}
+	manpower=289400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
