@@ -14,34 +14,35 @@ focus_tree = {
 	default = no
 	
 	continuous_focus_position = { x = 20 y = 2500 }
+	
+	######Industrial Tree########
 
 	focus = {
-		id = CAS_Revive_Economy
+		id = CAS_Reform_Economy
 		icon = GFX_goal_generic_construction
+		Available = {
+		OR = {
+		has_completed_focus = CAS_The_Time_is_now_Comrades
+		has_completed_focus = CAS_Call_An_Emergency_Election
+		has_completed_focus = CAS_Declare_Martial_Law
+		}
+		}
 		x = 7
 		y = 0
 		cost = 10
 		ai_will_do = {
 			factor = 12
 		}
-		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_four_year_plan
-				bonus = 1.0
-				uses = 2
-				category = industry
-			}
 		
-		}
 		
 	}
 	
 	focus = {
 		id = CAS_Encourage_Privatization
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Revive_Economy }
+		prerequisite = { focus = CAS_Reform_Economy }
 		mutually_exclusive = { focus = CAS_Seize_Private_Assets }
-		mutually_exclusive = { focus = CAS_We_dont_need_change }
+		mutually_exclusive = { focus = CAS_Moderate_Reforms }
 		Available = {
 		OR = {
 		has_government = ultranationalism
@@ -51,7 +52,7 @@ focus_tree = {
 		}
 		x = -3
 		y = 1
-		relative_position_id = CAS_Revive_Economy
+		relative_position_id = CAS_Reform_Economy
 		cost = 10
 		ai_will_do = {
 			factor = 8
@@ -62,9 +63,9 @@ focus_tree = {
 	focus = {
 		id = CAS_Seize_Private_Assets
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Revive_Economy }
+		prerequisite = { focus = CAS_Reform_Economy }
 		mutually_exclusive = { focus = CAS_Encourage_Privatization }
-		mutually_exclusive = { focus = CAS_We_dont_need_change }
+		mutually_exclusive = { focus = CAS_Moderate_Reforms }
 		Available = {
 		OR = {
 		has_government = communism
@@ -73,7 +74,7 @@ focus_tree = {
 		}
 		x = 3
 		y = 1
-		relative_position_id = CAS_Revive_Economy
+		relative_position_id = CAS_Reform_Economy
 		cost = 10
 		ai_will_do = {
 			factor = 8
@@ -82,9 +83,9 @@ focus_tree = {
 	
 }
 focus = {
-		id = CAS_We_dont_need_change
+		id = CAS_Moderate_Reforms
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Revive_Economy }
+		prerequisite = { focus = CAS_Reform_Economy }
 		mutually_exclusive = { focus = CAS_Seize_Private_Assets }
 		mutually_exclusive = { focus = CAS_Encourage_Privatization }
 		Available = {
@@ -96,7 +97,7 @@ focus = {
 		}
 		x = 0
 		y = 1
-		relative_position_id = CAS_Revive_Economy
+		relative_position_id = CAS_Reform_Economy
 		cost = 10
 		ai_will_do = {
 			factor = 8
@@ -107,7 +108,7 @@ focus = {
 focus = {
 		id = CAS_Absorb_Failing_Companies
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Seize_Private_Assets focus = CAS_We_dont_need_change }
+		prerequisite = { focus = CAS_Seize_Private_Assets focus = CAS_Moderate_Reforms }
 		Available = {
 		OR = {
 		has_government = communism
@@ -128,7 +129,7 @@ focus = {
 focus = {
 		id = CAS_Offer_Bailouts
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Encourage_Privatization focus = CAS_We_dont_need_change }
+		prerequisite = { focus = CAS_Encourage_Privatization focus = CAS_Moderate_Reforms }
 		Available = {
 		OR = {
 		has_government = conservatism
@@ -234,10 +235,10 @@ focus = {
 focus = {
 		id = CAS_Expand_Plantations
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_We_dont_need_change }
+		prerequisite = { focus = CAS_Moderate_Reforms }
 		x = 0
 		y = 1
-		relative_position_id = CAS_We_dont_need_change
+		relative_position_id = CAS_Moderate_Reforms
 		cost = 10
 		ai_will_do = {
 			factor = 8
@@ -376,7 +377,7 @@ focus = {
 		id = CAS_Begin_Military_Production
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = CAS_Purchase_Factories }
-				Available = {
+		Available = {
 		OR = {
 		has_government = ultranationalism
 		has_government = authoritarianism
@@ -407,5 +408,314 @@ focus = {
 
 
 }
+focus = {
+		id = CAS_Appeal_to_Big_Business
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Expand_Slavery_to_Factories }
+		Available = {
+		OR = {
+		has_government = conservatism
+		has_government = authoritarianism
+		}
+		}
+		x = -1
+		y = 1
+		relative_position_id = CAS_Expand_Slavery_to_Factories
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Appeal_to_the_White_Man
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Expand_Slavery_to_Factories }
+		Available = {
+		OR = {
+		has_government = liberalism
+		}
+		}
+		x = 1
+		y = 1
+		relative_position_id = CAS_Expand_Slavery_to_Factories
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Lower_Work_Hours
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Appeal_to_Big_Business focus = CAS_Appeal_to_the_White_Man }
+		x = 1
+		y = 1
+		relative_position_id = CAS_Appeal_to_Big_Business
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Construct_Factories
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Lower_Work_Hours focus = CAS_No_work_Limit focus = CAS_Work_For_The_Workless }
+		x = -1
+		y = 1
+		relative_position_id = CAS_Lower_Work_Hours
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Remilitarize_Our_Homeland
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Lower_Work_Hours focus = CAS_No_work_Limit focus = CAS_Work_For_The_Workless }
+		x = 1
+		y = 1
+		relative_position_id = CAS_Lower_Work_Hours
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Cuban_Factories
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Remilitarize_Our_Homeland  }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Remilitarize_Our_Homeland
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Yucatan_Factories
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Cuban_Factories  }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Cuban_Factories
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Build_Plantations
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Construct_Factories  }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Construct_Factories
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Open_Stores
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Build_Plantations }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Build_Plantations
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Finalize_Economic_Reforms
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Open_Stores focus = CAS_Yucatan_Factories }
+		x = 1
+		y = 1
+		relative_position_id = CAS_Open_Stores
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+
+
+######Political Tree########
+
+focus = {
+		id = CAS_Our_Glorious_Leader_is_dead
+		icon = GFX_goal_generic_construct_military
+		x = 25
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_The_Time_is_now_Comrades
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Our_Glorious_Leader_is_dead }
+		mutually_exclusive = { focus = CAS_Declare_Martial_Law }
+		mutually_exclusive = { focus = CAS_Call_An_Emergency_Election }
+		x = -6
+		y = 1
+		relative_position_id = CAS_Our_Glorious_Leader_is_dead
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Call_An_Emergency_Election
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Our_Glorious_Leader_is_dead }
+		mutually_exclusive = { focus = CAS_The_Time_is_now_Comrades }
+		mutually_exclusive = { focus = CAS_Declare_Martial_Law }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Our_Glorious_Leader_is_dead
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Declare_Martial_Law
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Our_Glorious_Leader_is_dead }
+		mutually_exclusive = { focus = CAS_The_Time_is_now_Comrades }
+		mutually_exclusive = { focus = CAS_Call_An_Emergency_Election }
+		x = 6
+		y = 1
+		relative_position_id = CAS_Our_Glorious_Leader_is_dead
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Learn_from_the_Past
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_The_Time_is_now_Comrades }
+		x = 2
+		y = 1
+		relative_position_id = CAS_The_Time_is_now_Comrades
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_The_Path_to_Equality
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Learn_from_the_Past }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Learn_from_the_Past
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Affirmative_Action
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_The_Path_to_Equality }
+		mutually_exclusive = { focus = CAS_Gradual_Integration }
+		x = 1
+		y = 1
+		relative_position_id = CAS_The_Path_to_Equality
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Gradual_Integration
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_The_Path_to_Equality }
+		mutually_exclusive = { focus = CAS_Affirmative_Action }
+		x = -1
+		y = 1
+		relative_position_id = CAS_The_Path_to_Equality
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Redistribute_Plantations
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Gradual_Integration }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Gradual_Integration
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Arrest_Former_Slave_Owners
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Affirmative_Action }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Affirmative_Action
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+
+
+
+
+
+
+
+
 }
 
