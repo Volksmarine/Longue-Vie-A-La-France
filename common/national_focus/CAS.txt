@@ -1,0 +1,305 @@
+﻿
+focus_tree = {
+	id = confederate_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CAS
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 20 y = 2500 }
+
+	focus = {
+		id = CAS_Revive_Economy
+		icon = GFX_goal_generic_construction
+		x = 7
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_four_year_plan
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+		
+		}
+		
+	}
+	
+	focus = {
+		id = CAS_Encourage_Privatization
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Revive_Economy }
+		mutually_exclusive = { focus = CAS_Seize_Private_Assets }
+		mutually_exclusive = { focus = CAS_We_dont_need_change }
+		Available = {
+		OR = {
+		has_government = ultranationalism
+		has_government = authoritarianism
+		has_government = conservatism
+		}
+		}
+		x = -3
+		y = 1
+		relative_position_id = CAS_Revive_Economy
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+	
+	}
+	focus = {
+		id = CAS_Seize_Private_Assets
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Revive_Economy }
+		mutually_exclusive = { focus = CAS_Encourage_Privatization }
+		mutually_exclusive = { focus = CAS_We_dont_need_change }
+		Available = {
+		OR = {
+		has_government = communism
+		has_government = democratic_socialism
+		}
+		}
+		x = 3
+		y = 1
+		relative_position_id = CAS_Revive_Economy
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+	
+}
+focus = {
+		id = CAS_We_dont_need_change
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Revive_Economy }
+		mutually_exclusive = { focus = CAS_Seize_Private_Assets }
+		mutually_exclusive = { focus = CAS_Encourage_Privatization }
+		Available = {
+		OR = {
+		has_government = conservatism
+		has_government = liberalism
+		has_government = authoritarianism
+		}
+		}
+		x = 0
+		y = 1
+		relative_position_id = CAS_Revive_Economy
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+	
+}
+focus = {
+		id = CAS_Absorb_Failing_Companies
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Seize_Private_Assets focus = CAS_We_dont_need_change }
+		Available = {
+		OR = {
+		has_government = communism
+		has_government = Liberalism
+		has_government = democratic_socialism
+		}
+		}
+		x = -1
+		y = 1
+		relative_position_id = CAS_Seize_Private_Assets
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+	
+}
+focus = {
+		id = CAS_Offer_Bailouts
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Encourage_Privatization focus = CAS_We_dont_need_change }
+		Available = {
+		OR = {
+		has_government = conservatism
+		has_government = ultranationalism
+		has_government = monarchism
+		has_government = authoritarianism
+		}
+		}
+		x = 1
+		y = 1
+		relative_position_id = CAS_Encourage_Privatization
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+	
+}
+focus = {
+		id = CAS_Absorb_Large_Businesses
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Seize_Private_Assets }
+		x = 1
+		y = 1
+		relative_position_id = CAS_Seize_Private_Assets
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Increase_Tarrifs
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Offer_Bailouts }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Offer_Bailouts
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Relax_Regulations
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Encourage_Privatization }
+		x = -1
+		y = 1
+		relative_position_id = CAS_Encourage_Privatization
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Absorb_Smaller_Businesses
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Absorb_Large_Businesses }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Absorb_Large_Businesses
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Expand_Government_Support
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Absorb_Failing_Companies }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Absorb_Failing_Companies
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Outlaw_Foreign_Businesses
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Relax_Regulations }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Relax_Regulations
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Expand_Plantations
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_We_dont_need_change }
+		x = 0
+		y = 1
+		relative_position_id = CAS_We_dont_need_change
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Purchase_Factories
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Outlaw_Foreign_Businesses }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Outlaw_Foreign_Businesses
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Reopen_Abandoned_Factories
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Expand_Plantations }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Expand_Plantations
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Expand_Slavery_to_Factories
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Reopen_Abandoned_Factories }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Reopen_Abandoned_Factories
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Construct_Communal_Workplaces
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Absorb_Smaller_Businesses }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Absorb_Smaller_Businesses
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+}
+
