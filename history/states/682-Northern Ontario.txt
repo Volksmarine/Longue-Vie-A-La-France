@@ -1,28 +1,27 @@
+
 state={
 	id=682
 	name="STATE_682"
-	
-	state_category = rural
-	
 	resources={
-		steel=8 # was: 12.000
-		aluminium=9 # was: 14.000
+		steel=8.000
+		aluminium=9.000
 	}
 
 	history={
-		owner = CAN
+		owner = USA
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 
 		}
-		add_core_of = CAN
+		add_core_of = USA
 
 	}
 
 	provinces={
-		602 777 1299 1769 1782 4775 4784 4869 4875 6510 7366 7794 7899 9467 9480 9740 10621 10718 11571 12278 12582 12701 13094 13159 13161 
+		490 602 777 983 1299 1341 1356 1657 1764 1769 1782 3911 4419 4769 4775 4784 4869 4875 6510 6740 7366 7435 7683 7794 7807 7810 7875 7893 7899 9467 9480 9740 10249 10534 10621 10700 10715 10718 11571 11682 11902 12205 12223 12276 12278 12582 12701 13094 13159 13161 13162 
 	}
 	manpower=149059
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

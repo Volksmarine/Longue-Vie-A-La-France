@@ -2,7 +2,11 @@ state={
 	id=799
 	name="STATE_799"
 	provinces={
-		4287 4362 10247 12221 
+		4287 4362 10247 12221
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
 	}
 	manpower=12387
 	buildings_max_level_factor=1.000

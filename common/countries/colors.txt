@@ -727,3 +727,7 @@ TEX = {
 	color = rgb { 11 45 92 }
 	color_ui = rgb { 11 45 92 }
 }
+BLK = {
+	color = rgb { 128 101 73 }
+	color_ui = rgb { 128 101 73 }
+}
