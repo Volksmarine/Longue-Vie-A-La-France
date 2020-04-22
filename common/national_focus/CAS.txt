@@ -162,7 +162,7 @@ focus = {
 
 }
 focus = {
-		id = CAS_Increase_Tarrifs
+		id = CAS_Reopen_Abandoned_Factories
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = CAS_Offer_Bailouts }
 		x = 0
@@ -260,7 +260,7 @@ focus = {
 
 }
 focus = {
-		id = CAS_Reopen_Abandoned_Factories
+		id = CAS_Force_Slaves_To_Build
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = CAS_Expand_Plantations }
 		x = 0
@@ -276,10 +276,10 @@ focus = {
 focus = {
 		id = CAS_Expand_Slavery_to_Factories
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Reopen_Abandoned_Factories }
+		prerequisite = { focus = CAS_Force_Slaves_To_Build }
 		x = 0
 		y = 1
-		relative_position_id = CAS_Reopen_Abandoned_Factories
+		relative_position_id = CAS_Force_Slaves_To_Build
 		cost = 10
 		ai_will_do = {
 			factor = 8
@@ -294,6 +294,112 @@ focus = {
 		x = 0
 		y = 1
 		relative_position_id = CAS_Absorb_Smaller_Businesses
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Mandatory_Work_Hours
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Construct_Communal_Workplaces }
+		Available = {
+		OR = {
+		has_government = communism
+		}
+		}
+		x = 1
+		y = 1
+		relative_position_id = CAS_Construct_Communal_Workplaces
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Workplace_Democracy
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Construct_Communal_Workplaces }
+		Available = {
+		OR = {
+		has_government = democratic_socialism
+		}
+		}
+		x = -1
+		y = 1
+		relative_position_id = CAS_Construct_Communal_Workplaces
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Work_For_The_Workless
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Workplace_Democracy focus = CAS_Mandatory_Work_Hours }
+		x = 1
+		y = 1
+		relative_position_id = CAS_Workplace_Democracy
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Repeal_All_Regulations
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Purchase_Factories }
+		Available = {
+		OR = {
+		has_government = ultranationalism
+		}
+		}
+		x = -1
+		y = 1
+		relative_position_id = CAS_Purchase_Factories
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Begin_Military_Production
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Purchase_Factories }
+				Available = {
+		OR = {
+		has_government = ultranationalism
+		has_government = authoritarianism
+		has_government = monarchism
+		}
+		}
+		x = 1
+		y = 1
+		relative_position_id = CAS_Purchase_Factories
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_No_work_Limit
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Repeal_All_Regulations focus = CAS_Begin_Military_Production }
+		x = 1
+		y = 1
+		relative_position_id = CAS_Repeal_All_Regulations
 		cost = 10
 		ai_will_do = {
 			factor = 8
