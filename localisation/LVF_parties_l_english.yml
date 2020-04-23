@@ -1,50 +1,79 @@
 ﻿l_english:
- communism:0 "Communist"
- communism_noun:0 "Communism"
+ #communism:0 "Communist"
+ #communism_noun:0 "Communism"
+ #communism_desc:0 "Totalitarian Regime"
+
+ communism:0 "Collectivism"
+ communism_noun:0 "Collectivist"
  communism_desc:0 "Totalitarian Regime"
- conservatism:0 "Conservatism"
- conservatism_desc:0 "Conservative Democracy"
- conservatism_noun:0 "Conservative"
- liberalism:0 "Liberalism"
- liberalism_desc:0 "Liberal Democracy"
- liberalism_noun:0 "Liberal"
- socialism:0 "Socialism"
- socialism_desc:0 "Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate."
+ anarchism:0 "Anarchism"
+ anarchism_desc:0 "Anarchism is a belief that there should no state, and that the people should be free to rule themselves in a form of general helpfulness to each other without any form of persuasion."
  marxism:0 "Marxism"
- marxism_desc:0 "Encompassing a broad spectrum of economic and historical views, Marxist politics seek to apply the theories of Karl Marx to political practice. Class struggle and the need for transition to a society based on common ownership of the means of production characterize these ideologies."
+ marxism_desc:0 "Marxism is a belief that the philosophies written by Karl Marx promoting the ideals of the worker, and the common ownership of all items. People under Marxism are given to according to need and are all given the same amount of material reward regardless of work or employment."
  leninism:0 "Leninism"
- leninism_desc:0 "A political ideology based in Marxist thought, Leninism seeks to establish a socialist state by a vanguard party leading a revolution overthrowing capitalist society. Once in power, the party rules through a system whereby policies are open for internal debate until a decision has been made."
- stalinism:0 "Stalinism"
- stalinism_desc:0 "Identifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authorative socialist state to purge any counter-revolutionary elements."
- anti_revisionism:0 "Anti-Revisionism"
- anti_revisionism_desc:0 "A reaction to the many ideologies claiming to be successors to Marxism, Anti-Revisionism advocates retaining key elements of original revolutionary theory. Mainly opposing incorporation of capitalist economic elements into socialist states, the ideology is defined as much by what it isn't as what it is."
- neutrality:0 "Non-Aligned"
- neutrality_noun:0 "Non-Aligned"
- neutrality_desc:0 "Authoritarian Regime"
- despotism:0 "Despotic"
- despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
- oligarchism:0 "Oligarchic"
- oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
- moderatism:1 "Moderatism"
- moderatism_desc:1 "Moderatism is a form of government which avoids the extremes of left and right by taking a moderate position or course of action."
- centrism:1 "Centrism"
- centrism_desc:1 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
+ leninism_desc:0 "Leninism is a divergence from the beliefs of Karl Marx proposed by Vladimir Lenin before his death. Leninism promotes the idea that the nation should be lead by a revolutionary communist party to ensure the protection of all workers."
+ unionism:0 "Unionism"
+ unionism_desc:0 "Unionism is a divergence from the beliefs of Karl Marx developed to protect the rights of workers across the nation and the world. Unionism is often led by Trade Unions and other Industrial Rights activists."
+
+ socialism:0 "Socialist"
+ socialism_noun:0 "Socialism"
+ socialism_desc:0 "Totalitarian Regime"
+ democratic_socialism:0 "Democratic Socialism"
+ democratic_socialism_desc:0 "Democratic Socialism is a philosophy promoting an economy run by the government to protect the rights of citizens. Democratic Socialists promote a form of decentralized planned economy and self-management for workers."
+ jacobinism:0 "Jacobinism"
+ jacobinism_desc:0 "Jacobinism is an ideology created by Robespierre, promoting anti-monarchist and anti-conservative beliefs. Jacobinism promotes the use of mass punishment to silence opposition and the rejection of the reactionary and traditional beliefs."
+ utopianism:0 "Utopianism"
+ utopianism_desc:0 "Utopianism is an ideology believing that society can be perfected and remove all ideals. Most utopianists reject the conditions needed to create a utopia and ignore the limitations that are needed. Utopianists do not believe in the need for a struggle or revolution, and rather believe people will adopt the Utopian ideals voluntarily."
+ environmentalism:0 "Environmentalism"
+ environmentalism_desc:0 "Environmentalism is an ideology promoting the ideals of protecting the environment at all costs. Environmentalists generally seek to limit the use of polluting devices and buildings such as factories and prefer a more traditional society, so as to protect the environment."
+
+ liberalism:0 "Liberalist"
+ liberalism_noun:0 "Liberalism"
+ liberalism_desc:0 "Democratic Regime"
+ social_liberalism:0 "Social Liberalism"
+ social_liberalism_desc:0 "Social Liberalism is an ideology promoting a regulated, but mostly free, economy. Social Liberalism promotes civil and political rights for all peoples, and support the freedoms of the individual along with the common good."
+ market_liberalism:0 "Market Liberalism"
+ market_liberalism_desc:0 "Market Liberalism is an ideology promoting a free market. Market Liberals want little to no government interference, with slight protections for the worker. Social Liberalism and Market Liberals share some, but not all the same beliefs about the rights of the individual."
+ neo_liberalism:0 "Neo-Liberalism"
+ neo_liberalism_desc:0 "Neo-Liberalism is an ideology that promotes free-market capitalism, such as the Libertarian, but adds in government intervention and despise government spending to protect the market from collapsing. Neo-Liberalism is similar to the Market Liberal however wish for less control in the markets, and wish for a more representative government."
+
+ conservativism:0 "Conservative"
+ conservativism_noun:0 "Conservatism"
+ conservativism_desc:0 "Democratic Regime"
+ jingoism:0 "Jingoism"
+ jingoism_desc:0 "Jingoism is a protectionist ideology. Jingoists promote intervention in foreign nations to protect the shared interests of both nations. Others view Jingoism as radical. Jingoism is close to Social Conservatism in national issues."
+ reactionism:0 "Reactionism"
+ reactionism_desc:0 "Reactionism is a restorationist ideology. Reactionaries believe that society should return to a status quo of the past. Some Reactionaries promote practices such as slavery and a religious state to return to what they view as a proper society."
+ libertarianism:0 "Libertarianism"
+ libertarianism_desc:0 "Libertarianism is a conservative ideology. Meaning Freedom, Libertarians promote the rights of the individual above all else. Libertarians promote the smallest government possible and call for a free market lacking any form of government intervention."
+ social_conservatism:0 "Social Conservatism"
+ social_conservatism_desc:0 "Social Conservatism is a conservative ideology. Promoting the ideals of tradition, authority, and the rights of property, Conservatives combine reactionary elements with liberal elements to promote a traditional, but still democratic, society."
+
+ autocracy:0 "Autocratic"
+ autocracy_noun:0 "Autocratism"
+ autocracy_desc:0 "Authoritarian Regime"
+ monarchism:0 "Monarchism"
+ monarchism_desc:0 "Monarchism is an autocratic ideology. Promoting the rule by a leader chosen by the heavens, Monarchists bring the rise of Kings and Queens. Driven by a family line, Monarchist leaders are generally all associated familiarly, in one house."
+ dictatorship:0 "Dictatorship"
+ dictatorship_desc:0 "Dictatorship is an autocratic ideology. Under a dictatorship, a single person has all the power and has no check on what they act. Heralding typically from the military, Dictators rule their nations with an iron fist, caring only for their own desires over the betterment of the nation."
+ authoritarian_democracy:0 "Authoritarian Democracy"
+ authoritarian_democracy_desc:0 "Authoritarian Democracy is an autocratic ideology. Taking ideas from Conservatism, but combining it with limits on the rights of select groups, Authoritarian Democrats typically are still elected but with a biased population towards them, ensuring continued leadership."
+ theocracy:0 "Theocratic"
+ theocracy_desc:0 "Theocracy is an autocratic ideology. Heralding a divine power, Theocrats demand that all members of the state, be it civilians or government officials, come from the same religious beliefs. Theocrats typically rule by the words and code of their religion and combine religion with the matters of state."
+
  ultranationalism:0 "Ultra Nationalist"
  ultranationalism_noun:0 "Ultra Nationalism"
- nationalism:0 "Nationalism"
- monarchism:0 "Monarchist"
- monarchism_noun:0 "Monarchism"
- monarchism_desc:0 "A country ruled by a Monarch"
- constitutional:0 "Constitutional Monarchy"
- absolute:0 "Absolute Monarchy"
- democratic_socialism:0 "Democratic Socialism"
- democratic_socialism_noun:0 "Democratic Socialist"
- democratic_socialism_desc:0 "A Socialist party elected democratically"
- demsoc:0 "Democratic Socialism"
- demsoc_desc:0 "A socialist party elected democratically"
- authoritarianism:0 "Authoritarianism"
- authoritarianism_noun:0 "Authoritarian"
- authoritarianism_desc:0 "Authoritarian Regime"
+ ultranationalism_desc:0 "Nationalistic Regime"
+ militarism:0 "Militarism"
+ militarism_desc:0 "Militarism is an autocratic ideology. Militarists generally come to power during the time of crisis and use their control of the army to force the population into doing what they deem to be safe. Militarists take away the option of choosing from the people to ensure their safety."
+ strasserism:0 "Strasserism"
+ strasserism_desc:0 "Strasserism is a nationalistic ideology. Created by the Strasser brothers, Strasserism calls for radical mass action to rise up against the people crushing the ideals of nationalism. Anti-Semitism is deeply rooted in Strasserism, along with Palingetic Ultra-Nationalism."
+ falangism:0 "Falangism"
+ falangism_desc:0 "Falangism is a nationalistic ideology. Developed and cultivated by Caudillo Fransisco Franco, Falangism is authoritarian in its control of the population, but conservative in its beliefs. Promoting religious tradition, and order."
+ paternalism:0 "Paternalism"
+ paternalism_desc:0 "Paternalism is a nationalistic ideology. Synonimous with harsh and restrictive parenting, Paternalism enforces control over society for their own safety. Paternalists take away liberty and freedom from the people to ensure their safety from themselves and other societies viewed as harsh."
+
+######### Vanilla ########
 
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
@@ -497,22 +526,22 @@
  ISR_democratic_party:0 "Mapai"
  ISR_fascism_party:0 "Helpam"
  ISR_neutrality_party:0 "Central Council"
- VIN_fascism_party:0 "Vietnamese Restoration League" #or Reformation Society   
+ VIN_fascism_party:0 "Vietnamese Restoration League" #or Reformation Society
  VIN_democratic_party:0 "Can Lao Party" #formed in early 50s
  VIN_communism_party:0 "Communist Party of Vietnam" #Viet Minh was more important in early years
  VIN_neutrality_party:0 "Viêt Nam Quoc Dân Đang"
  CAM_fascism_party:0 "Khmerite Party"
- CAM_democratic_party:0 "Democratic Party" #formed in 1946 
+ CAM_democratic_party:0 "Democratic Party" #formed in 1946
  CAM_communism_party:0 "Communist Party of Kampuchea" # aka Khmer Communist Party or a different party Krom Pracheachon aka Krom
  CAM_neutrality_party:0 "Sangkum Reastr Niyum" # or just Sangkum 1955, democratic but right leaning and anti communist
  INS_fascism_party:0 "New Order" #inspired by right wingers from 1960s
  INS_democratic_party:0 "PNI" #Indonesian National Party founded by Sukarno
  INS_communism_party:0 "PKI" #Partai Komunis Indonesia
- INS_neutrality_party:0 "Democrats" #made up, in reality this guy was a member of PNI 
+ INS_neutrality_party:0 "Democrats" #made up, in reality this guy was a member of PNI
  MAL_fascism_party:0 "Panoceanic Unionists"
  MAL_democratic_party:0 "United Malays National Organisation" #or UMNO or PEKEMBAR
  MAL_communism_party:0 "Malayan Communist Party" #or MCP
- MAL_neutrality_party:0 "Kesatuan Melayu Muda" #or KMM 
+ MAL_neutrality_party:0 "Kesatuan Melayu Muda" #or KMM
  LAO_fascism_party:0 "Tribal Centralization Party"
  LAO_democratic_party:0 "Democratic Party"
  LAO_communism_party:0 "Pathet Lao"
@@ -538,7 +567,7 @@
  AZR_communism_party:0 "Communist Party of Azerbaijan"
  AZR_neutrality_party:0 "Ittihad"
  ARM_fascism_party:0 "Armenian Legion"
- ARM_democratic_party:0 "Armenian Revolutionary Federation" #or ARF 
+ ARM_democratic_party:0 "Armenian Revolutionary Federation" #or ARF
  ARM_communism_party:0 "Communist Party of Armenia"
  ARM_neutrality_party:0 "Central Authority"
  BLR_fascism_party:0 "Belarusian Central Council"
