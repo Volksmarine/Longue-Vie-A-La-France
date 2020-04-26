@@ -13,7 +13,7 @@ create_country_leader = {
 	name = "Jospeh P. Kennedy"
 	picture = "Portrait_NER_Joseph_P_Kennedy.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = social_liberalism
 	traits = {
 		#
 	}
@@ -33,7 +33,7 @@ create_country_leader = {
 	name = "William Dudley Pelley"
 	picture = ""
 	expire = "1965.1.1"
-	ideology = ultranationalism
+	ideology = paternalism
 	traits = {
 		#
 	}
@@ -87,7 +87,7 @@ set_politics = {
 set_popularities = {
 	ultranationalism = 1
 	communism = 2
-	authoritarianism = 1
+	autocracy = 1
 	liberalism = 49
 	conservativism = 47
 	}

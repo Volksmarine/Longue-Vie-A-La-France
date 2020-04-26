@@ -18,6 +18,7 @@ state={
 
 		}
 		add_core_of = CAS
+		add_claim_by = NER
 		victory_points = {
 			788 10 
 		}

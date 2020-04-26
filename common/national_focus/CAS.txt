@@ -46,8 +46,8 @@ focus_tree = {
 		Available = {
 		OR = {
 		has_government = ultranationalism
-		has_government = authoritarianism
-		has_government = conservatism
+		has_government = autocracy
+		has_government = conservativism
 		}
 		}
 		x = -3
@@ -69,7 +69,7 @@ focus_tree = {
 		Available = {
 		OR = {
 		has_government = communism
-		has_government = democratic_socialism
+		has_government = socialism
 		}
 		}
 		x = 3
@@ -90,9 +90,9 @@ focus = {
 		mutually_exclusive = { focus = CAS_Encourage_Privatization }
 		Available = {
 		OR = {
-		has_government = conservatism
+		has_government = conservativism
 		has_government = liberalism
-		has_government = authoritarianism
+		has_government = autocracy
 		}
 		}
 		x = 0
@@ -113,7 +113,7 @@ focus = {
 		OR = {
 		has_government = communism
 		has_government = Liberalism
-		has_government = democratic_socialism
+		has_government = socialism
 		}
 		}
 		x = -1
@@ -132,10 +132,9 @@ focus = {
 		prerequisite = { focus = CAS_Encourage_Privatization focus = CAS_Moderate_Reforms }
 		Available = {
 		OR = {
-		has_government = conservatism
+		has_government = conservativism
 		has_government = ultranationalism
-		has_government = monarchism
-		has_government = authoritarianism
+		has_government = autocracy
 		}
 		}
 		x = 1
@@ -327,7 +326,7 @@ focus = {
 		prerequisite = { focus = CAS_Construct_Communal_Workplaces }
 		Available = {
 		OR = {
-		has_government = democratic_socialism
+		has_government = socialism
 		}
 		}
 		x = -1
@@ -380,8 +379,8 @@ focus = {
 		Available = {
 		OR = {
 		has_government = ultranationalism
-		has_government = authoritarianism
-		has_government = monarchism
+		has_government = autocracy
+		has_government = conservativism
 		}
 		}
 		x = 1
@@ -414,8 +413,8 @@ focus = {
 		prerequisite = { focus = CAS_Expand_Slavery_to_Factories }
 		Available = {
 		OR = {
-		has_government = conservatism
-		has_government = authoritarianism
+		has_government = conservativism
+		has_government = autocracy
 		}
 		}
 		x = -1
@@ -624,11 +623,10 @@ focus = {
 
 }
 focus = {
-		id = CAS_Learn_from_the_Past
+		id = CAS_Stockpile_Weapons
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = CAS_The_Time_is_now_Comrades }
-		mutually_exclusive = { focus = CAS_The_Fall_of_the_Whites }
-		x = 2
+		x = 1
 		y = 1
 		relative_position_id = CAS_The_Time_is_now_Comrades
 		cost = 10
@@ -639,12 +637,127 @@ focus = {
 
 }
 focus = {
-		id = CAS_The_Path_to_Equality
+		id = CAS_Arm_Revolutionaries
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Learn_from_the_Past }
+		prerequisite = { focus = CAS_The_Time_is_now_Comrades }
+		x = -1
+		y = 1
+		relative_position_id = CAS_The_Time_is_now_Comrades
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Incite_Dissent
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Arm_Revolutionaries }
 		x = 0
 		y = 1
-		relative_position_id = CAS_Learn_from_the_Past
+		relative_position_id = CAS_Arm_Revolutionaries
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Secure_Strategic_Points
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Stockpile_Weapons }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Stockpile_Weapons
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Ignite_the_Revolution
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Incite_Dissent focus = CAS_Secure_Strategic_Points }
+		x = 1
+		y = 1
+		relative_position_id = CAS_Incite_Dissent
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Free_The_Slaves
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Ignite_the_Revolution }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Ignite_the_Revolution
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Begin_Rebuilding
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Free_The_Slaves }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Free_The_Slaves
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Elect_our_new_Leader
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Begin_Rebuilding }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Begin_Rebuilding
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+
+
+focus = {
+		id = CAS_A_Truly_Democratic_Government
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Elect_our_new_Leader }
+		mutually_exclusive = { focus = CAS_The_Black_Coup }
+		x = 2
+		y = 1
+		relative_position_id = CAS_Elect_our_new_Leader
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_The_Path_to_Equality
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_A_Truly_Democratic_Government }
+		x = 0
+		y = 1
+		relative_position_id = CAS_A_Truly_Democratic_Government
 		cost = 10
 		ai_will_do = {
 			factor = 8
@@ -711,13 +824,13 @@ focus = {
 
 }
 focus = {
-		id = CAS_The_Fall_of_the_Whites
+		id = CAS_A_Black_Coup
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_The_Time_is_now_Comrades }
-		mutually_exclusive = { focus = CAS_Learn_from_the_Past }
+		prerequisite = { focus = CAS_Elect_our_new_Leader }
+		mutually_exclusive = { focus = CAS_A_Truly_Democratic_Government }
 		x = -1
 		y = 1
-		relative_position_id = CAS_The_Time_is_now_Comrades
+		relative_position_id = CAS_Elect_our_new_Leader
 		cost = 10
 		ai_will_do = {
 			factor = 8
@@ -728,10 +841,10 @@ focus = {
 focus = {
 		id = CAS_The_New_Plantations
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_The_Fall_of_the_Whites }
+		prerequisite = { focus = CAS_A_Black_Coup }
 		x = 0
 		y = 1
-		relative_position_id = CAS_The_Fall_of_the_Whites
+		relative_position_id = CAS_A_Black_Coup
 		cost = 10
 		ai_will_do = {
 			factor = 8

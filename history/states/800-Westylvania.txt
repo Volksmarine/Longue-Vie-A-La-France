@@ -4,6 +4,7 @@ state={
 	history = {
 		owner = CAS
 		add_core_of = CAS
+		add_claim_by = NER
 	}
 	provinces={
 		801 3802 3941 3975 4627 6850 6971 7466 7588 7646 10441 
