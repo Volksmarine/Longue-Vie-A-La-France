@@ -684,8 +684,8 @@ MEK = {
 	color_ui = rgb { 186 245 86 }
 }
 PRE = {
-	color = rgb { 160  160  160 }
-	color_ui = rgb { 160  160  160 }
+	color = rgb { 0  18  77 }
+	color_ui = rgb { 0  18  77 }
 }
 SAX = {
 	color = rgb { 102 102 0 }
@@ -734,3 +734,16 @@ BLK = {
 RHN = {
 	color = rgb { 50 90 105 }
 	color_ui = rgb { 50 90 105 }
+}
+HLS = {
+	color = rgb { 122 74 20 }
+	color_ui = rgb { 122 74 20 }
+}
+HSE = {
+	color = rgb { 219 70 59 }
+	color_ui = rgb { 219 70 59 }
+}
+WST = {
+	color = rgb { 171 160 12 }
+	color_ui = rgb { 171 160 12 }
+}

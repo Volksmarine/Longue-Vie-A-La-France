@@ -6,7 +6,7 @@ state={
 	state_category = city
 
 	history={
-		owner = GER
+		owner = WST
 		victory_points = {
 			241 5 
 		}
@@ -25,7 +25,7 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = GER
+		add_core_of = WST
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4
@@ -35,6 +35,6 @@ state={
 	}
 
 	provinces={
-		241 247 309 336 3234 9281 11233 11264 11388 
+		241 247 309 336 3234 9281 11233 11264 11388 3326 6349 374
 	}
 }

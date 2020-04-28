@@ -1,0 +1,24 @@
+
+state={
+	id=822
+	name="STATE_822"
+	resources={
+		tungsten=11.000
+	}
+
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = DEN
+	}
+
+	provinces={
+		332 11251 11366 317 3231
+	}
+	manpower=537605
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

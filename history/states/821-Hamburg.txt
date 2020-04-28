@@ -1,0 +1,24 @@
+
+state={
+	id=821
+	name="STATE_821"
+	resources={
+		tungsten=11.000
+	}
+
+	history={
+		owner = HLS
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = HLS
+	}
+
+	provinces={
+		9347
+	}
+	manpower=537605
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
