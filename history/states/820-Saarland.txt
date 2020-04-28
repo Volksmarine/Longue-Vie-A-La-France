@@ -1,0 +1,25 @@
+
+state={
+	id=820
+	name="STATE_820"
+	resources={
+		tungsten=11.000
+	}
+
+	history={
+		owner = RHN
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = RHN
+
+	}
+
+	provinces={
+		9575 11531
+	}
+	manpower=537605
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=819
+	name="STATE_819"
+	resources={
+		tungsten=11.000
+	}
+
+	history={
+		owner = HOL
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = HOL
+
+	}
+
+	provinces={
+		575
+	}
+	manpower=537605
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -731,3 +731,6 @@ BLK = {
 	color = rgb { 128 101 73 }
 	color_ui = rgb { 128 101 73 }
 }
+RHN = {
+	color = rgb { 50 90 105 }
+	color_ui = rgb { 50 90 105 }
