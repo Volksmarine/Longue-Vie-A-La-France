@@ -4,6 +4,7 @@ state={
 	provinces={
 		6675 9630 11615 
 	}
+	owner = ITA
 	manpower= 89000
 	buildings_max_level_factor=1.000
 	state_category = rural
