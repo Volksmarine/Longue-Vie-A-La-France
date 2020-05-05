@@ -9,11 +9,11 @@ set_technology = {
 }
 
 create_country_leader = {
-	
+
 	name = "Ernest Bevin"
 	picture = "CAL_Ernest_Bevin.dds"
 	expire = "1965.1.1"
-	ideology = demsoc
+	ideology = democratic_socialism
 	traits = {
 		#
 	}
@@ -33,7 +33,7 @@ set_convoys = 5
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-	
+
 	set_technology = {
 
 		#doctrines
@@ -59,14 +59,14 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = democratic_socialism
+	ruling_party = socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarianism = 15
+	autocracy = 15
 	conservativism = 18
 	liberalism = 27
-	democratic_socialism = 32
+	socialism = 32
 	communism = 8

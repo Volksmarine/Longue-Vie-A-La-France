@@ -9,7 +9,7 @@ set_technology = {
 }
 
 create_country_leader = {
-	
+
 	name = "Eugene Talmadge"
 	picture = "Portrait_CAS_Eugene_Talmadge.dds"
 	expire = "1965.1.1"
@@ -33,7 +33,7 @@ set_convoys = 5
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-	
+
 	set_technology = {
 
 		#doctrines
