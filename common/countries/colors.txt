@@ -747,3 +747,6 @@ WST = {
 	color = rgb { 171 160 12 }
 	color_ui = rgb { 171 160 12 }
 }
+SGF = {
+	color = rgb { 85 108 135 }
+	color_ui = rgb { 85 108 135 }
