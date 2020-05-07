@@ -9,11 +9,11 @@ set_technology = {
 }
 
 create_country_leader = {
-	
+
 	name = "Eugene Talmadge"
-	picture = "Untitled-2.dds"
+	picture = "Portrait_CAS_Eugene_Talmadge.dds"
 	expire = "1965.1.1"
-	ideology = anarchism
+	ideology = authoritarian_democracy
 	traits = {
 		#
 	}
@@ -33,7 +33,7 @@ set_convoys = 5
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-	
+
 	set_technology = {
 
 		#doctrines
@@ -58,7 +58,7 @@ set_convoys = 5
 	}
 }
 
-set_politics = communism
+set_politics = autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

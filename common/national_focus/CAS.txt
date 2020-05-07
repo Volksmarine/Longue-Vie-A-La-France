@@ -22,9 +22,10 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		Available = {
 		OR = {
-		has_completed_focus = CAS_The_Time_is_now_Comrades
-		has_completed_focus = CAS_Call_An_Emergency_Election
-		has_completed_focus = CAS_Declare_Martial_Law
+		has_completed_focus = CAS_A_Black_Coup
+		has_completed_focus = CAS_A_Truly_Democratic_Government
+		has_completed_focus = CAS_Liberal_Victory
+		has_completed_focus = CAS_Conservative_Victory
 		}
 		}
 		x = 7
@@ -681,7 +682,8 @@ focus = {
 focus = {
 		id = CAS_Ignite_the_Revolution
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Incite_Dissent focus = CAS_Secure_Strategic_Points }
+		prerequisite = { focus = CAS_Incite_Dissent }
+		prerequisite = { focus = CAS_Secure_Strategic_Points }
 		x = 1
 		y = 1
 		relative_position_id = CAS_Incite_Dissent
@@ -741,7 +743,7 @@ focus = {
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = CAS_Elect_our_new_Leader }
 		mutually_exclusive = { focus = CAS_The_Black_Coup }
-		x = 2
+		x = 1
 		y = 1
 		relative_position_id = CAS_Elect_our_new_Leader
 		cost = 10
@@ -796,7 +798,7 @@ focus = {
 
 }
 focus = {
-		id = CAS_Redistribute_Plantations
+		id = CAS_Seize_Plantations
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = CAS_Gradual_Integration }
 		x = 0
@@ -824,11 +826,25 @@ focus = {
 
 }
 focus = {
+		id = CAS_The_Trial_of_The_Old_Leadership
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Seize_Plantations focus = CAS_Cement_Black_Rule focus =  CAS_Arrest_Former_Slave_Owners }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Seize_Plantations
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
 		id = CAS_A_Black_Coup
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = CAS_Elect_our_new_Leader }
 		mutually_exclusive = { focus = CAS_A_Truly_Democratic_Government }
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = CAS_Elect_our_new_Leader
 		cost = 10
@@ -884,7 +900,8 @@ focus = {
 		id = CAS_Liberal_Victory
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = CAS_Call_An_Emergency_Election }
-		x = -2
+		mutually_exclusive = { focus = CAS_Conservative_Victory }
+		x = -3
 		y = 1
 		relative_position_id = CAS_Call_An_Emergency_Election
 		cost = 10
@@ -895,10 +912,11 @@ focus = {
 
 }
 focus = {
-		id = CAS_Conservatives_Dominate
+		id = CAS_Conservative_Victory
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = CAS_Call_An_Emergency_Election }
-		x = 2
+		mutually_exclusive = { focus = CAS_Liberal_Victory }
+		x = 3
 		y = 1
 		relative_position_id = CAS_Call_An_Emergency_Election
 		cost = 10
@@ -909,11 +927,51 @@ focus = {
 
 }
 focus = {
-		id = CAS_Abolish_Slavery
+		id = CAS_End_Slavery
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Liberal_Victory focus = CAS_Conservative_Victory }
+		x = 3
+		y = 1
+		relative_position_id = CAS_Liberal_Victory
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_A_New_Constitution
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_End_Slavery }
+		x = 0
+		y = 1
+		relative_position_id = CAS_End_Slavery
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_A_New_Constitution
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_End_Slavery }
+		x = 0
+		y = 1
+		relative_position_id = CAS_End_Slavery
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Ban_Radicals
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = CAS_Liberal_Victory }
-		mutually_exclusive = { focus = CAS_Expand_Slavery }
-		mutually_exclusive = { focus = CAS_Continue_Slavery }
 		x = 0
 		y = 1
 		relative_position_id = CAS_Liberal_Victory
@@ -925,14 +983,13 @@ focus = {
 
 }
 focus = {
-		id = CAS_Continue_Slavery
+		id = CAS_Towards_Equality
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Liberal_Victory focus = CAS_Conservatives_Dominate}
-		mutually_exclusive = { focus = CAS_Abolish_Slavery }
-		mutually_exclusive = { focus = CAS_Expand_Slavery }
-		x = 2
+		prerequisite = { focus = CAS_Ban_Radicals }
+		prerequisite = { focus = CAS_End_Slavery }
+		x = 0
 		y = 1
-		relative_position_id = CAS_Liberal_Victory
+		relative_position_id = CAS_Ban_Radicals
 		cost = 10
 		ai_will_do = {
 			factor = 8
@@ -941,14 +998,12 @@ focus = {
 
 }
 focus = {
-		id = CAS_Expand_Slavery 
+		id = CAS_somethingpoliticalidkrn
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Conservatives_Dominate}
-		mutually_exclusive = { focus = CAS_Continue_Slavery }
-		mutually_exclusive = { focus = CAS_Abolish_Slavery }
+		prerequisite = { focus = CAS_Conservative_Victory }
 		x = 0
 		y = 1
-		relative_position_id = CAS_Conservatives_Dominate
+		relative_position_id = CAS_Conservative_Victory
 		cost = 10
 		ai_will_do = {
 			factor = 8
@@ -956,90 +1011,12 @@ focus = {
 
 
 }
-focus = {
-		id = CAS_Segregate_the_Buildings
-		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Abolish_Slavery}
-		x = 0
-		y = 1
-		relative_position_id = CAS_Abolish_Slavery
-		cost = 10
-		ai_will_do = {
-			factor = 8
-		}
 
 
-}
-focus = {
-		id = CAS_Repurpose_Plantations
-		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Segregate_the_Buildings }
-		x = 0
-		y = 1
-		relative_position_id = CAS_Segregate_the_Buildings
-		cost = 10
-		ai_will_do = {
-			factor = 8
-		}
 
 
-}
-focus = {
-		id = CAS_Construct_New_Plantations
-		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Expand_Slavery }
-		x = 0
-		y = 1
-		relative_position_id = CAS_Expand_Slavery
-		cost = 10
-		ai_will_do = {
-			factor = 8
-		}
 
 
-}
-focus = {
-		id = CAS_Appease_The_Plantation_Owners
-		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Continue_Slavery }
-		x = 0
-		y = 1
-		relative_position_id = CAS_Continue_Slavery
-		cost = 10
-		ai_will_do = {
-			factor = 8
-		}
-
-
-}
-focus = {
-		id = CAS_Supress_Black_Freedom_Fighters
-		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Appease_The_Plantation_Owners }
-		x = 0
-		y = 1
-		relative_position_id = CAS_Appease_The_Plantation_Owners
-		cost = 10
-		ai_will_do = {
-			factor = 8
-		}
-
-
-}
-focus = {
-		id = CAS_Hire_Slave_Catchers
-		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_Construct_New_Plantations }
-		x = 0
-		y = 1
-		relative_position_id = CAS_Construct_New_Plantations
-		cost = 10
-		ai_will_do = {
-			factor = 8
-		}
-
-
-}
 
 
 
