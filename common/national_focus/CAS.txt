@@ -1072,6 +1072,48 @@ focus = {
 
 
 }
+focus = {
+		id = CAS_Prepare_the_Yucatan
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_A_Place_of_Their_Own }
+		x = 0
+		y = 1
+		relative_position_id = CAS_A_Place_of_Their_Own
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Forcefully_Relocate_the_Negroes
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Prepare_the_Yucatan }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Prepare_the_Yucatan
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Black_only_Schools
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Freedom_with_Segregation }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Freedom_with_Segregation
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
 
 
 
