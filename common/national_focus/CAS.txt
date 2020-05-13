@@ -22,7 +22,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		Available = {
 		OR = {
-		has_completed_focus = CAS_A_Black_Coup
+		has_completed_focus = CAS_End_of_the_White_Man
 		has_completed_focus = CAS_A_Truly_Democratic_Government
 		has_completed_focus = CAS_Liberal_Victory
 		has_completed_focus = CAS_Conservative_Victory
@@ -613,7 +613,7 @@ focus = {
 		prerequisite = { focus = CAS_Our_Glorious_Leader_is_dead }
 		mutually_exclusive = { focus = CAS_The_Time_is_now_Comrades }
 		mutually_exclusive = { focus = CAS_Call_An_Emergency_Election }
-		x = 7
+		x = 9
 		y = 1
 		relative_position_id = CAS_Our_Glorious_Leader_is_dead
 		cost = 10
@@ -840,7 +840,7 @@ focus = {
 
 }
 focus = {
-		id = CAS_A_Black_Coup
+		id = CAS_End_of_the_White_Man
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = CAS_Elect_our_new_Leader }
 		mutually_exclusive = { focus = CAS_A_Truly_Democratic_Government }
@@ -857,10 +857,10 @@ focus = {
 focus = {
 		id = CAS_The_New_Plantations
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_A_Black_Coup }
+		prerequisite = { focus = CAS_End_of_the_White_Man }
 		x = 0
 		y = 1
-		relative_position_id = CAS_A_Black_Coup
+		relative_position_id = CAS_End_of_the_White_Man
 		cost = 10
 		ai_will_do = {
 			factor = 8
@@ -941,12 +941,26 @@ focus = {
 
 }
 focus = {
-		id = CAS_A_New_Constitution
+		id = CAS_Begin_Democratic_Reforms
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = CAS_End_Slavery }
 		x = 0
 		y = 1
 		relative_position_id = CAS_End_Slavery
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_A_New_Constitution
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Begin_Democratic_Reforms }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Begin_Democratic_Reforms
 		cost = 10
 		ai_will_do = {
 			factor = 8
@@ -1165,6 +1179,575 @@ focus = {
 		y = 1
 		relative_position_id = CAS_Teach_Diversity
 		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Talk_with_New_England
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Open_Borders }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Open_Borders
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Allow_Blacks_into_Politics
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Talk_with_New_England }
+		prerequisite = { focus = CAS_Repurpose_Plantations }
+		x = 1
+		y = 1
+		relative_position_id = CAS_Talk_with_New_England
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Reinforce_the_Border
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_A_Black_Yucatan }
+		prerequisite = { focus = CAS_Repurpose_Plantations }
+		x = -1
+		y = 1
+		relative_position_id = CAS_A_Black_Yucatan
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Finalize_Democratic_Reforms
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Reinforce_the_Border focus = CAS_Allow_Blacks_into_Politics }
+		x = 1
+		y = 1
+		relative_position_id = CAS_Allow_Blacks_into_Politics
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Find_the_Murderer
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Declare_Martial_Law }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Declare_Martial_Law
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Execute_Everyone_Involved
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Find_the_Murderer }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Find_the_Murderer
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Declare_New_England_Responsible
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Execute_Everyone_Involved }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Execute_Everyone_Involved
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Continue_the_Talmadge_Cult
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Declare_New_England_Responsible }
+		mutually_exclusive = { focus = CAS_Military_Coup focus = CAS_Rise_of_the_Confederation_First_Party}
+		x = -4
+		y = 1
+		relative_position_id = CAS_Declare_New_England_Responsible
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Rise_of_the_Confederation_First_Party
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Declare_New_England_Responsible }
+		mutually_exclusive = { focus = CAS_Continue_the_Talmadge_Cult focus = CAS_Military_Coup }
+		x = 4
+		y = 1
+		relative_position_id = CAS_Declare_New_England_Responsible
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Military_Coup
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Declare_New_England_Responsible }
+		mutually_exclusive = { focus = CAS_Rise_of_the_Confederation_First_Party focus = CAS_Continue_the_Talmadge_Cult }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Declare_New_England_Responsible
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_State_Funeral
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Continue_the_Talmadge_Cult }
+		x = -1
+		y = 1
+		relative_position_id = CAS_Continue_the_Talmadge_Cult
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Beginning_of_the_Mourning
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Continue_the_Talmadge_Cult }
+		x = 1
+		y = 1
+		relative_position_id = CAS_Continue_the_Talmadge_Cult
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Ensure_Loyalty_in_the_Army
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Institute_a_Draft }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Institute_a_Draft
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Tarnish_Talmadges_Reputation
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Military_Coup }
+		x = -1
+		y = 1
+		relative_position_id = CAS_Military_Coup
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Ban_Opposition_Parties
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Tarnish_Talmadges_Reputation }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Tarnish_Talmadges_Reputation
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Indefinite_Martial_Law
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Military_Coup }
+		x = 1
+		y = 1
+		relative_position_id = CAS_Military_Coup
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Institute_a_Draft
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Indefinite_Martial_Law }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Indefinite_Martial_Law
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_End_of_the_Catholic_Unity_Party
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Ban_Opposition_Parties }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Ban_Opposition_Parties
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_An_Army_with_a_State
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_End_of_the_Catholic_Unity_Party }
+		prerequisite = { focus = CAS_Ensure_Loyalty_in_the_Army }
+		x = 1
+		y = 1
+		relative_position_id = CAS_End_of_the_Catholic_Unity_Party
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_A_Reign_of_Terror
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Rise_of_the_Confederation_First_Party }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Rise_of_the_Confederation_First_Party
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Hunt_Down_Communists
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_A_Reign_of_Terror }
+		x = -1
+		y = 1
+		relative_position_id = CAS_A_Reign_of_Terror
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Extend_Slavery
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_A_Reign_of_Terror }
+		x = 1
+		y = 1
+		relative_position_id = CAS_A_Reign_of_Terror
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Seize_Private_Plantations
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Extend_Slavery }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Extend_Slavery
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Imprison_Talmadge_Supporters
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Hunt_Down_Communists }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Hunt_Down_Communists
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Offer_Former_Slaveowners_Political_Offices
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Seize_Private_Plantations }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Seize_Private_Plantations
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Mandatory_Membership_in_the_Party
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Imprison_Talmadge_Supporters }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Imprison_Talmadge_Supporters
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_The_Confederation_Youth
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Mandatory_Membership_in_the_Party }
+		prerequisite = { focus = CAS_Offer_Former_Slaveowners_Political_Offices }
+		x = 1
+		y = 1
+		relative_position_id = CAS_Mandatory_Membership_in_the_Party
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Dawn_of_a_New_Era
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_The_Confederation_Youth }
+		x = 0
+		y = 1
+		relative_position_id = CAS_The_Confederation_Youth
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Centralize_the_Confederacy
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Dawn_of_a_New_Era }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Dawn_of_a_New_Era
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Political_Office_for_Generals
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_An_Army_with_a_State }
+		x = 0
+		y = 1
+		relative_position_id = CAS_An_Army_with_a_State
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_The_State_of_our_State
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Beginning_of_the_Mourning }
+		prerequisite = { focus = CAS_State_Funeral }
+		x = 1
+		y = 1
+		relative_position_id = CAS_State_Funeral
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_The_Successor
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Beginning_of_the_Mourning }
+		x = 0
+		y = 1
+		relative_position_id = CAS_The_State_of_our_State
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_End_of_the_Mourning
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_The_Successor }
+		x = 0
+		y = 1
+		relative_position_id = CAS_The_Successor
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_A_Military_Hierarchy
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Political_Office_for_Generals }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Political_Office_for_Generals
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_A_New_Cult
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_A_Military_Hierarchy }
+		x = 0
+		y = 1
+		relative_position_id = CAS_A_Military_Hierarchy
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_A_Country_Reborn
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_A_New_Cult focus = CAS_Centralize_the_Confederacy }
+		x = -2
+		y = 1
+		relative_position_id = CAS_Centralize_the_Confederacy
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Increased_Training_for_the_Police_Force
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_End_of_the_Mourning }
+		x = 1
+		y = 1
+		relative_position_id = CAS_End_of_the_Mourning
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Restrict_Freedoms_for_Security
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_End_of_the_Mourning }
+		x = -1
+		y = 1
+		relative_position_id = CAS_End_of_the_Mourning
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_The_End_of_the_Crisis
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Increased_Training_for_the_Police_Force }
+		prerequisite = { focus = CAS_Restrict_Freedoms_for_Security }
+		x = 1
+		y = 1
+		relative_position_id = CAS_Restrict_Freedoms_for_Security
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_End_Martial_Law
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_The_End_of_the_Crisis }
+		x = 0
+		y = 1
+		relative_position_id = CAS_The_End_of_the_Crisis
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Purge_the_Military
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_End_Martial_Law }
+		x = 0
+		y = 1
+		relative_position_id = CAS_End_Martial_Law
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+
+
+
+
+
+########Military Tree########
+focus = {
+		id = CAS_Review_our_Military
+		icon = GFX_goal_generic_construct_military
+		x = 70
+		y = 0
 		ai_will_do = {
 			factor = 8
 		}
