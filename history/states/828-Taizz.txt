@@ -1,0 +1,25 @@
+
+state={
+	id=828
+	name="STATE_828"
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = YEM
+		add_core_of = OMA
+
+	}
+
+	provinces={
+		1973 10752 10840 13246 13248 13250 13253 13256 13257 13258 13260 13264 
+	}
+	manpower=984500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

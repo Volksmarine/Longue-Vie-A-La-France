@@ -1,0 +1,23 @@
+
+state={
+	id=830
+	name="STATE_830"
+
+	history={
+		owner = OMA
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = OMA
+		add_core_of = YEM
+
+	}
+
+	provinces={
+		2029 4976 13251 13259 13261 13265 13266 13267 13274 13275 13277 13280 13285 13291 13292 13309
+	}
+	manpower=406700
+	buildings_max_level_factor=1.000
+	state_category=town
+}
