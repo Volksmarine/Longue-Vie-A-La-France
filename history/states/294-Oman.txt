@@ -2,12 +2,8 @@
 state={
 	id=294
 	name="STATE_294"
-	manpower = 369000
-	
-	state_category = rural
-	
 	resources={
-		oil=2 # was: 2
+		oil=2.000
 	}
 
 	history={
@@ -15,18 +11,24 @@ state={
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 1 
+			industrial_complex = 1
 			10760 = {
 				naval_base = 3
+
 			}
+
 		}
 		victory_points = {
 			10760 3 
 		}
 		add_core_of = OMA
+
 	}
 
 	provinces={
-		1947 2018 2059 2103 4993 5049 8002 8020 10760 
+		1947 2018 2059 2103 4993 5049 8002 8020 10760 13241 13242 13293 13298 13301 13303 13307 13311 13313 13314 13315 13317 13320 13322 13326 13330 13332 13334 13339 13340 13348 13350 13351 13352 13353 13364 13365 13367 13368 13376 13379 13382 13385 13386 13392 13395 13396 13399 13409 13411 13412 13425 
 	}
+	manpower=369000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

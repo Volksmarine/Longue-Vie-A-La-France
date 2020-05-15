@@ -1,15 +1,18 @@
+
 state={
 	id=804
 	name="STATE_804"
-	history = {
+
+	history={
 		owner = NER
 		add_core_of = NER
+
 	}
+
 	provinces={
-		6909 9832 9847 9850 11830 
+		6909 9832 9847 9850 11830 13545 13547 
 	}
 	manpower=957182
 	buildings_max_level_factor=1.000
 	state_category=large_city
-	}
 }
