@@ -1,0 +1,25 @@
+state = {
+	id = 827
+	name = "STATE_827"
+	resources = {
+		rubber = 2
+	}
+
+	history = {
+		owner = OMA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = OMA
+
+    victory_points = {
+			13238 5 
+		}
+	}
+
+	provinces = {
+		13236 13237 13238
+	}
+	manpower = 308400
+	state_category = town
+}
