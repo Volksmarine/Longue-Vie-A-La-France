@@ -1754,8 +1754,165 @@ focus = {
 
 
 }
+focus = {
+		id = CAS_Our_Airforce
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Review_our_Military }
+		x = 10
+		y = 1
+		relative_position_id = CAS_Review_our_Military
+		ai_will_do = {
+			factor = 8
+		}
 
 
+}
+focus = {
+		id = CAS_The_State_of_the_Army
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Review_our_Military }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Review_our_Military
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Our_Glorious_Navy
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Review_our_Military }
+		x = -10
+		y = 1
+		relative_position_id = CAS_Review_our_Military
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Overpower_with_Firepower
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_The_State_of_the_Army }
+		mutually_exclusive = { focus = CAS_European_Traditions focus = CAS_A_Mobile_Strategy }
+		x = -3
+		y = 1
+		relative_position_id = CAS_The_State_of_the_Army
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_European_Traditions
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_The_State_of_the_Army }
+		mutually_exclusive = { focus =  CAS_Overpower_with_Firepower focus = CAS_A_Mobile_Strategy }
+		x = 0
+		y = 1
+		relative_position_id = CAS_The_State_of_the_Army
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_A_Mobile_Strategy
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_The_State_of_the_Army }
+		mutually_exclusive = { focus = CAS_Overpower_with_Firepower focus = CAS_European_Traditions }
+		x = 3
+		y = 1
+		relative_position_id = CAS_The_State_of_the_Army
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_New_Guns_for_our_Troops
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_European_Traditions focus = CAS_A_Mobile_Strategy }
+		x = 2
+		y = 1
+		relative_position_id = CAS_European_Traditions
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Invest_in_Trucks
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_A_Mobile_Strategy }
+		x = 1
+		y = 1
+		relative_position_id = CAS_A_Mobile_Strategy
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Logistic_Upgrades
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Invest_in_Trucks }
+		x = 0
+		y = 1
+		relative_position_id = CAS_Invest_in_Trucks
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Design_New_Tanks
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Invest_in_Trucks }
+		x = 2
+		y = 1
+		relative_position_id = CAS_Invest_in_Trucks
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_The_Art_of_War
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_European_Traditions }
+		x = 0
+		y = 1
+		relative_position_id = CAS_European_Traditions
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Prioritise_Breakthrough
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Logistic_Upgrades focus = CAS_Design_New_Tanks }
+		x = 1
+		y = 1
+		relative_position_id = CAS_Logistic_Upgrades
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
 
 
 
