@@ -1,4 +1,4 @@
-﻿capital = 357
+capital = 357
 
 oob = "BOT_1936"
 
@@ -10,8 +10,8 @@ set_technology = {
 
 create_country_leader = {
 	
-	name = "Jospeh P. Kennedy"
-	picture = "Joseph_P_Kennedy.dds"
+	name = "Per Albin Hansson"
+	picture = "Per_Albin_Hansson.dds"
 	expire = "1965.1.1"
 	ideology = social_liberalism
 	traits = {
@@ -20,8 +20,8 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "William Z. Foster"
-	picture = ""
+	name = "Sven Linderot"
+	picture = "Sven_Linderot.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
@@ -30,15 +30,44 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "William Dudley Pelley"
-	picture = ""
+	name = "Sven Olov Lindholm"
+	picture = "Sven_Olov_Lindholm.dds"
 	expire = "1965.1.1"
 	ideology = paternalism
 	traits = {
 		#
 	}
 }
-
+create_country_leader = {
+	
+	name = "Axel Pehrsson-Bramstorp"
+	picture = "Axel_Pehrsson-Bramstorp.dds"
+	expire = "1965.1.1"
+	ideology = jingoism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Par Lagerkvist"
+	picture = "Par_Lagerkvist.dds"
+	expire = "1965.1.1"
+	ideology = jacobinism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Gustaf V"
+	picture = "Gustaf_V"
+	expire = "1965.1.1"
+	ideology = jacobinism
+	traits = {
+		#
+	}
+}
 
 set_convoys = 5
 
@@ -85,11 +114,11 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	ultranationalism = 1
-	communism = 2
-	autocracy = 1
-	socialism = 20
-	liberalism = 39
-	conservativism = 37
+	ultranationalism = 7
+	communism = 3
+	autocracy = 10
+	liberalism = 37
+	conservativism = 34
+	socialism = 9
 	}
 }
