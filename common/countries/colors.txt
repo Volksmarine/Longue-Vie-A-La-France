@@ -755,11 +755,6 @@ ZHA = {
 	color = rgb { 14 70 182 }
 	color_ui = rgb { 14 70 182 }
 }
-ZHA = {
-	color = rgb { 196 196 57 }
-	color_ui = rgb { 196 196 57 }
-}
-
 URU = {
 	color = rgb { 164 181 181 }
 	color_ui = rgb { 164 181 181 }
