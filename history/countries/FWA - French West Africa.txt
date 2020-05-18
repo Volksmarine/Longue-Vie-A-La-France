@@ -10,10 +10,30 @@ set_technology = {
 
 create_country_leader = {
 	
-	name = "Eugene Talmadge"
-	picture = "Portrait_CAS_Eugene_Talmadge.dds"
+	name = "Jospeh P. Kennedy"
+	picture = "Portrait_NER_Joseph_P_Kennedy.dds"
 	expire = "1965.1.1"
-	ideology = authoritarianism
+	ideology = social_liberalism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "William Z. Foster"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "William Dudley Pelley"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = paternalism
 	traits = {
 		#
 	}
@@ -59,14 +79,16 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	authoritarianism = 78
-	conservativism = 15
-	liberalism = 6
-	democratic_socialism = 1
+	ultranationalism = 1
+	communism = 2
+	autocracy = 1
+	liberalism = 49
+	conservativism = 47
+	}
 }

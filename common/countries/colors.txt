@@ -24,14 +24,17 @@ LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
-BEL = { color 	 = rgb { 193 171 8  }
-		color_ui = rgb { 251 222 10 }
-	  }
-HOL = {	color = rgb { 203 138 74 }
-		color_ui = rgb { 255 179 96 }
+BEL = { 
+	color = rgb { 193 171 8  }
+	color_ui = rgb { 251 222 10 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
+HOL = {	
+	color = rgb { 203 138 74 }
+	color_ui = rgb { 255 179 96 }
+}
+CZE = {	
+	color = rgb { 54 167 156 }
+	color_ui = rgb { 70 217 203 }
 }
 POL = {
 	color = rgb { 197 92 106 }
@@ -756,6 +759,50 @@ ZHA = {
 	color_ui = rgb { 14 70 182 }
 }
 URU = {
+	color = rgb { 164 181 181 }
+	color_ui = rgb { 164 181 181 }
+}
+RAS = {
+	color = rgb { 164 181 181 }
+	color_ui = rgb { 164 181 181 }
+}
+FWI = {
+	color = rgb { 164 181 181 }
+	color_ui = rgb { 164 181 181 }
+}
+LOU = {
+	color = rgb { 164 181 181 }
+	color_ui = rgb { 164 181 181 }
+}
+INN = {
+	color = rgb { 164 181 181 }
+	color_ui = rgb { 164 181 181 }
+}
+FWA = {
+	color = rgb { 164 181 181 }
+	color_ui = rgb { 164 181 181 }
+}
+FCA = {
+	color = rgb { 164 181 181 }
+	color_ui = rgb { 164 181 181 }
+}
+GSB = {
+	color = rgb { 164 181 181 }
+	color_ui = rgb { 164 181 181 }
+}
+PAT = {
+	color = rgb { 164 181 181 }
+	color_ui = rgb { 164 181 181 }
+}
+PLA = {
+	color = rgb { 164 181 181 }
+	color_ui = rgb { 164 181 181 }
+}
+CEA= {
+	color = rgb { 164 181 181 }
+	color_ui = rgb { 164 181 181 }
+}
+FOR = {
 	color = rgb { 164 181 181 }
 	color_ui = rgb { 164 181 181 }
 }

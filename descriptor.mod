@@ -4,8 +4,6 @@ tags={
 }
 name="Longue vie a la France"
 supported_version="1.9.2"
-replace_path="common/countries"
-replace_path="common/country_tags"
 replace_path="common/bookmarks"
 replace_path="common/decisions"
 replace_path="common/ideas"

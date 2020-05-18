@@ -113,3 +113,4 @@ set_popularities = {
 	conservativism = 27
 	democratic_socialism = 39
 	monarchism = 0
+}
