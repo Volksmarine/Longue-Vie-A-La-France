@@ -1336,6 +1336,7 @@ focus = {
 		prerequisite = { focus = CAS_Continue_the_Talmadge_Cult }
 		x = -1
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Continue_the_Talmadge_Cult
 		ai_will_do = {
 			factor = 8
@@ -1349,6 +1350,7 @@ focus = {
 		prerequisite = { focus = CAS_Continue_the_Talmadge_Cult }
 		x = 1
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Continue_the_Talmadge_Cult
 		ai_will_do = {
 			factor = 8
@@ -1362,6 +1364,7 @@ focus = {
 		prerequisite = { focus = CAS_Institute_a_Draft }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Institute_a_Draft
 		ai_will_do = {
 			factor = 8
@@ -1375,6 +1378,7 @@ focus = {
 		prerequisite = { focus = CAS_Military_Coup }
 		x = -1
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Military_Coup
 		ai_will_do = {
 			factor = 8
@@ -1388,6 +1392,7 @@ focus = {
 		prerequisite = { focus = CAS_Tarnish_Talmadges_Reputation }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Tarnish_Talmadges_Reputation
 		ai_will_do = {
 			factor = 8
@@ -1401,6 +1406,7 @@ focus = {
 		prerequisite = { focus = CAS_Military_Coup }
 		x = 1
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Military_Coup
 		ai_will_do = {
 			factor = 8
@@ -1414,6 +1420,7 @@ focus = {
 		prerequisite = { focus = CAS_Indefinite_Martial_Law }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Indefinite_Martial_Law
 		ai_will_do = {
 			factor = 8
@@ -1427,6 +1434,7 @@ focus = {
 		prerequisite = { focus = CAS_Ban_Opposition_Parties }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Ban_Opposition_Parties
 		ai_will_do = {
 			factor = 8
@@ -1441,6 +1449,7 @@ focus = {
 		prerequisite = { focus = CAS_Ensure_Loyalty_in_the_Army }
 		x = 1
 		y = 1
+		cost = 10
 		relative_position_id = CAS_End_of_the_Catholic_Unity_Party
 		ai_will_do = {
 			factor = 8
@@ -1454,6 +1463,7 @@ focus = {
 		prerequisite = { focus = CAS_Rise_of_the_Confederation_First_Party }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Rise_of_the_Confederation_First_Party
 		ai_will_do = {
 			factor = 8
@@ -1467,6 +1477,7 @@ focus = {
 		prerequisite = { focus = CAS_A_Reign_of_Terror }
 		x = -1
 		y = 1
+		cost = 10
 		relative_position_id = CAS_A_Reign_of_Terror
 		ai_will_do = {
 			factor = 8
@@ -1480,6 +1491,7 @@ focus = {
 		prerequisite = { focus = CAS_A_Reign_of_Terror }
 		x = 1
 		y = 1
+		cost = 10
 		relative_position_id = CAS_A_Reign_of_Terror
 		ai_will_do = {
 			factor = 8
@@ -1493,6 +1505,7 @@ focus = {
 		prerequisite = { focus = CAS_Extend_Slavery }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Extend_Slavery
 		ai_will_do = {
 			factor = 8
@@ -1506,6 +1519,7 @@ focus = {
 		prerequisite = { focus = CAS_Hunt_Down_Communists }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Hunt_Down_Communists
 		ai_will_do = {
 			factor = 8
@@ -1519,6 +1533,7 @@ focus = {
 		prerequisite = { focus = CAS_Seize_Private_Plantations }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Seize_Private_Plantations
 		ai_will_do = {
 			factor = 8
@@ -1532,6 +1547,7 @@ focus = {
 		prerequisite = { focus = CAS_Imprison_Talmadge_Supporters }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Imprison_Talmadge_Supporters
 		ai_will_do = {
 			factor = 8
@@ -1546,6 +1562,7 @@ focus = {
 		prerequisite = { focus = CAS_Offer_Former_Slaveowners_Political_Offices }
 		x = 1
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Mandatory_Membership_in_the_Party
 		ai_will_do = {
 			factor = 8
@@ -1559,6 +1576,7 @@ focus = {
 		prerequisite = { focus = CAS_The_Confederation_Youth }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_The_Confederation_Youth
 		ai_will_do = {
 			factor = 8
@@ -1572,6 +1590,7 @@ focus = {
 		prerequisite = { focus = CAS_Dawn_of_a_New_Era }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Dawn_of_a_New_Era
 		ai_will_do = {
 			factor = 8
@@ -1585,6 +1604,7 @@ focus = {
 		prerequisite = { focus = CAS_An_Army_with_a_State }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_An_Army_with_a_State
 		ai_will_do = {
 			factor = 8
@@ -1599,6 +1619,7 @@ focus = {
 		prerequisite = { focus = CAS_State_Funeral }
 		x = 1
 		y = 1
+		cost = 10
 		relative_position_id = CAS_State_Funeral
 		ai_will_do = {
 			factor = 8
@@ -1612,6 +1633,7 @@ focus = {
 		prerequisite = { focus = CAS_Beginning_of_the_Mourning }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_The_State_of_our_State
 		ai_will_do = {
 			factor = 8
@@ -1625,6 +1647,7 @@ focus = {
 		prerequisite = { focus = CAS_The_Successor }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_The_Successor
 		ai_will_do = {
 			factor = 8
@@ -1638,6 +1661,7 @@ focus = {
 		prerequisite = { focus = CAS_Political_Office_for_Generals }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Political_Office_for_Generals
 		ai_will_do = {
 			factor = 8
@@ -1651,6 +1675,7 @@ focus = {
 		prerequisite = { focus = CAS_A_Military_Hierarchy }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_A_Military_Hierarchy
 		ai_will_do = {
 			factor = 8
@@ -1664,6 +1689,7 @@ focus = {
 		prerequisite = { focus = CAS_A_New_Cult focus = CAS_Centralize_the_Confederacy }
 		x = -2
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Centralize_the_Confederacy
 		ai_will_do = {
 			factor = 8
@@ -1677,6 +1703,7 @@ focus = {
 		prerequisite = { focus = CAS_End_of_the_Mourning }
 		x = 1
 		y = 1
+		cost = 10
 		relative_position_id = CAS_End_of_the_Mourning
 		ai_will_do = {
 			factor = 8
@@ -1690,6 +1717,7 @@ focus = {
 		prerequisite = { focus = CAS_End_of_the_Mourning }
 		x = -1
 		y = 1
+		cost = 10
 		relative_position_id = CAS_End_of_the_Mourning
 		ai_will_do = {
 			factor = 8
@@ -1704,6 +1732,7 @@ focus = {
 		prerequisite = { focus = CAS_Restrict_Freedoms_for_Security }
 		x = 1
 		y = 1
+		cost = 10
 		relative_position_id = CAS_Restrict_Freedoms_for_Security
 		ai_will_do = {
 			factor = 8
@@ -1717,6 +1746,7 @@ focus = {
 		prerequisite = { focus = CAS_The_End_of_the_Crisis }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_The_End_of_the_Crisis
 		ai_will_do = {
 			factor = 8
@@ -1730,6 +1760,7 @@ focus = {
 		prerequisite = { focus = CAS_End_Martial_Law }
 		x = 0
 		y = 1
+		cost = 10
 		relative_position_id = CAS_End_Martial_Law
 		ai_will_do = {
 			factor = 8
@@ -1748,13 +1779,284 @@ focus = {
 		icon = GFX_goal_generic_construct_military
 		x = 70
 		y = 0
+		cost = 10
 		ai_will_do = {
 			factor = 8
 		}
 
 
 }
+focus = {
+		id = CAS_Our_Airforce
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Review_our_Military }
+		x = 10
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Review_our_Military
+		ai_will_do = {
+			factor = 8
+		}
 
+
+}
+focus = {
+		id = CAS_The_State_of_the_Army
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Review_our_Military }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Review_our_Military
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Our_Glorious_Navy
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Review_our_Military }
+		x = -10
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Review_our_Military
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Overpower_with_Firepower
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_The_State_of_the_Army }
+		mutually_exclusive = { focus = CAS_European_Traditions focus = CAS_A_Mobile_Strategy }
+		x = -3
+		y = 1
+		cost = 10
+		relative_position_id = CAS_The_State_of_the_Army
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_European_Traditions
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_The_State_of_the_Army }
+		mutually_exclusive = { focus =  CAS_Overpower_with_Firepower focus = CAS_A_Mobile_Strategy }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = CAS_The_State_of_the_Army
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_A_Mobile_Strategy
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_The_State_of_the_Army }
+		mutually_exclusive = { focus = CAS_Overpower_with_Firepower focus = CAS_European_Traditions }
+		x = 3
+		y = 1
+		cost = 10
+		relative_position_id = CAS_The_State_of_the_Army
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_New_Guns_for_our_Troops
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_European_Traditions focus = CAS_A_Mobile_Strategy }
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = CAS_European_Traditions
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Invest_in_Trucks
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_A_Mobile_Strategy }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = CAS_A_Mobile_Strategy
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Logistic_Upgrades
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Invest_in_Trucks }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Invest_in_Trucks
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Armor_the_Trucks
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Invest_in_Trucks }
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Invest_in_Trucks
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_The_Art_of_War
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_European_Traditions }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = CAS_European_Traditions
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Prioritise_Breakthrough
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Logistic_Upgrades focus = CAS_Armor_the_Trucks }
+		mutually_exclusive = { focus = CAS_Adopt_a_New_Strategy }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Logistic_Upgrades
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Adopt_a_New_Strategy
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Armor_the_Trucks }
+		mutually_exclusive = { focus = CAS_Prioritise_Breakthrough }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Armor_the_Trucks
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Entrenchment_Saves_Lives
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_The_Art_of_War }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = CAS_The_Art_of_War
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_New_Shovels
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Entrenchment_Saves_Lives }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Entrenchment_Saves_Lives
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Enforced_Military_Hierarchy
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_New_Shovels }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = CAS_New_Shovels
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Reduce_Troop_Deaths
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Enforced_Military_Hierarchy }
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Enforced_Military_Hierarchy
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Westsylvanian_Forts
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Enforced_Military_Hierarchy }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Enforced_Military_Hierarchy
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Virginian_Forts
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Westsylvanian_Forts }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Westsylvanian_Forts
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
 
 
 
