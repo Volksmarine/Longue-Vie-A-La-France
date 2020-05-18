@@ -1,7 +1,6 @@
 state={
 	id=807
 	name="STATE_807"
-	}
 	history = {
 		owner = ITA
 		add_core_of = ITA
