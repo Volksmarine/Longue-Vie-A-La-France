@@ -11,7 +11,7 @@ set_technology = {
 create_country_leader = {
 	
 	name = "Jospeh P. Kennedy"
-	picture = "Portrait_NER_Joseph_P_Kennedy.dds"
+	picture = "Joseph_P_Kennedy.dds"
 	expire = "1965.1.1"
 	ideology = social_liberalism
 	traits = {
@@ -88,7 +88,8 @@ set_popularities = {
 	ultranationalism = 1
 	communism = 2
 	autocracy = 1
-	liberalism = 49
-	conservativism = 47
+	socialism = 20
+	liberalism = 39
+	conservativism = 37
 	}
 }
