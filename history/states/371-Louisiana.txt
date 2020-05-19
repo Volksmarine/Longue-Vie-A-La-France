@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = LOU
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -18,7 +18,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = LOU
 		victory_points = {
 			7552 10 
 		}
