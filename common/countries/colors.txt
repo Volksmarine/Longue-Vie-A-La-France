@@ -17,7 +17,7 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
+	color = rgb { 21 67 122 }
 	color_ui = rgb { 74 147 255 }
 }
 LUX = {
@@ -771,8 +771,8 @@ FWI = {
 	color_ui = rgb { 164 181 181 }
 }
 LOU = {
-	color = rgb { 164 181 181 }
-	color_ui = rgb { 164 181 181 }
+	color = rgb { 51 32 107 }
+	color_ui = rgb { 51 32 107 }
 }
 INN = {
 	color = rgb { 164 181 181 }
