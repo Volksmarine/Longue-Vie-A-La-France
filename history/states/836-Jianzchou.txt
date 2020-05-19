@@ -1,0 +1,13 @@
+state={
+	id=836
+	name="STATE_836"
+	history = {
+		owner = ZHA
+		add_core_of = ZHA
+	}
+	provinces={
+		1508 3877 3978 10429 12469 12478 
+	}
+	manpower=2576109
+	buildings_max_level_factor=1.000
+}
