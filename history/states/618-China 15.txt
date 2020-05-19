@@ -1,24 +1,24 @@
 
 state={
 	id=618
-	name="STATE_618" # Dzungaria
-	manpower = 670800
-
-	state_category = pastoral
+	name="STATE_618"
 
 	history={
-		owner = SIK
-		add_core_of = SIK
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = URU
+		add_core_of = ZHA
+		add_core_of = URU
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 
 	}
 
 	provinces={
-		1708 1783 1844 4714 4788 4823 4849 7693 7737 7866 10674 10691 12590 12737 
+		1708 1774 1783 1844 4714 4751 4788 4823 4849 7693 7737 7808 7843 7866 7870 10539 10674 10691 12590 12737 
 	}
+	manpower=670800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

@@ -18,6 +18,10 @@ add_ideas = {
 	the_turtle_kingdom
 	pro_qing_sentiments
 	christian_exodus
+
+	undisturbed_isolation
+	closed_economy
+	limited_conscription
 }
 
 set_convoys = 0

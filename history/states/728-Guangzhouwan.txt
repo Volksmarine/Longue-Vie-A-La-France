@@ -7,8 +7,8 @@ state={
 	
 	history={
 		owner = FRA
-		add_core_of = CHI
-		add_core_of = PRC
+		add_core_of = ZHA
+		add_core_of = FRA
 		buildings = {
 			infrastructure = 3
 			11981 = {

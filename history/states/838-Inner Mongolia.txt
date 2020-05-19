@@ -1,0 +1,17 @@
+
+state={
+	id=838
+	name="STATE_838"
+
+	history={
+		owner = ZHA
+		add_core_of = MON
+
+	}
+
+	provinces={
+		1723 1853 4655 4856 10558 10575 10632 12539 12612 12669 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+}

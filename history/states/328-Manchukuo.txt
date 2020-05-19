@@ -11,10 +11,8 @@ state={
 	}
 
 	history={
-		owner = MAN
-		add_core_of = CHI
-		add_core_of = MAN
-		add_core_of = PRC
+		owner = SOV
+		add_core_of = ZHA
 		buildings = {
 			infrastructure = 4
 			#industrial_complex = 1
