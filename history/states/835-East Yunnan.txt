@@ -6,9 +6,12 @@ state={
 		add_core_of = ZHA
 		add_core_of = YUN
 	}
+
 	provinces={
-		1114 1172 1196 1319 1653 4501 7446 7606 8023 10346 12282 
+		1114 1172 1196 1319 1653 4501 7446 7606 8023 10346 12282
 	}
+
 	manpower=4678980
+	state_category = town
 	buildings_max_level_factor=1.000
 }

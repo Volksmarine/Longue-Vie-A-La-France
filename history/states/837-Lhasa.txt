@@ -7,8 +7,9 @@ state={
 		add_core_of = TIB
 	}
 	provinces={
-		2014 2098 4994 5011 5033 7926 10755 10918 
+		2014 2098 4994 5011 5033 7926 10755 10918
 	}
 	manpower=1500000
+	state_category = town
 	buildings_max_level_factor=1.000
 }

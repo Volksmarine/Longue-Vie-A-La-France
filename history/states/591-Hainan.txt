@@ -8,41 +8,19 @@ state={
 		add_core_of = ZHA
 		add_core_of = HVK
 		victory_points = {
-			1070 1 
+			1070 1
 		}
 		buildings = {
 			infrastructure = 2
 			air_base = 1
 			1070 = {
 				naval_base = 2
-
 			}
-
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = Waking the Tiger
-
-					}
-
-				}
-				remove_core_of = GXC
-				CHI = {
-					transfer_state = PREV
-
-				}
-
-			}
-			controller = JAP
-
-		}
-
 	}
 
 	provinces={
-		994 1038 1070 11963 11990 
+		994 1038 1070 11963 11990
 	}
 	manpower=4350000
 	buildings_max_level_factor=1.000
