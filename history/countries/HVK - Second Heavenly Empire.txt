@@ -21,6 +21,10 @@ add_ideas = {
 	a_state_of_god
 	federalized_schools
 	crippled_nation
+	
+	low_economic_mobilization
+	export_focus
+	extensive_conscription
 }
 
 set_convoys = 20

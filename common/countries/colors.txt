@@ -755,8 +755,8 @@ SGF = {
 	color_ui = rgb { 85 108 135 }
 }
 ZHA = {
-	color = rgb { 14 70 182 }
-	color_ui = rgb { 14 70 182 }
+	color = rgb { 55 168 205 }
+	color_ui = rgb { 55 168 205 }
 }
 URU = {
 	color = rgb { 164 181 181 }
@@ -805,4 +805,8 @@ CEA= {
 FOR = {
 	color = rgb { 164 181 181 }
 	color_ui = rgb { 164 181 181 }
+}
+HVK = {
+	color = rgb { 205 200 55 }
+	color_ui = rgb { 205 200 55 }
 }

@@ -1,0 +1,13 @@
+state={
+	id=839
+	name="STATE_839"
+	history = {
+		owner = ZHA
+		add_core_of = MON
+	}
+	provinces={
+		1743 4873 10578 10647 12557 12629 
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+}
