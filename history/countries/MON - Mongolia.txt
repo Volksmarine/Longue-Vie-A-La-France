@@ -1,0 +1,45 @@
+﻿capital = 330
+
+oob = "MON_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	under_the_russian_boot
+	legacy_of_the_great_khan
+}
+
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	autocracy = 76
+	ultranationalism = 24
+}
+
+create_country_leader = {
+	name = "Tögs-Ochiryn Namnansüren"
+	picture = "Portrait_MON_Togs_Ochiryn_Namnansuren"
+	expire = "1965.1.1"
+	ideology = monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Dambiijantsan Khan"
+	picture = "Portrait_MON_Dambiijantsan"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+		#
+	}
+}

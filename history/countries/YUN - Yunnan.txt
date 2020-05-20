@@ -29,7 +29,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Tang Jiyao"
-	picture = ""
+	picture = "Portrait_YUN_Tang_Jiyao"
 	expire = "1965.1.1"
 	ideology = militarism
 	traits = {
