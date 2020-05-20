@@ -47,7 +47,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Emperor Yuan Keding"
-	picture = ""
+	picture = "Portrait_HVK_Yuan_Keding"
 	expire = "1965.1.1"
 	ideology = theocracy
 	traits = {

@@ -6,6 +6,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			picture = idea_boxer_government
 
 			allowed_civil_war = {
 				NOT = {
@@ -28,6 +30,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			picture = idea_buildup_of_the_imperial_navy
 
 			allowed_civil_war = {
 				NOT = {
@@ -53,6 +57,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			picture = idea_the_turtle_kingdom
 
 			allowed_civil_war = {
 				NOT = {
@@ -80,6 +86,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			picture = idea_pro_qing_sentiments
 
 			allowed_civil_war = {
 				NOT = {
@@ -102,6 +110,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			picture = idea_christian_exodus
 
 			allowed_civil_war = {
 				NOT = {
