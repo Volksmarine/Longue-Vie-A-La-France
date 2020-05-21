@@ -1,0 +1,23 @@
+﻿l_english:
+
+MOH_CLOSE:0 "Close Window"
+
+MOH_HOLDS_TOOLTIP:0 "[This.GetName] holds the Mandate of Heaven"
+
+ability_1:0 "For 100 Days: \n\§GDivision Organization +15% \n\Division Recovery Rate +15% \n\Division Attack +15% \n\Division Defense +15%§ \n\§RLose 20 Mandate Influence§"
+ability_2:0 "For 100 Days: \n\§GNon-Core Manpower +15% \n\Recruitable Population Factor +10% \n\Reinforce Rate +15% \n\§RLose 20 Mandate Influence§"
+ability_3:0 "For 100 Days: \n\§GConsumer Goods Factories -10% \n\Production Efficiency Cap +15% \n\Factory Output +15% \n\§RLose 20 Mandate Influence§"
+ability_4:0 "For 100 Days: \n\§GDaily Political Power Gain +0.15 \n\Stability +20% \n\War Support +20% \n\§RLose 20 Mandate Influence§"
+ability_5:0 "For 100 Days: \n\§GFleet Coordination +15%\n\ Naval Hit Chance +15%\n\ Naval Speed +15% \n\Spotting Speed +15%§ \n\§RLose 20 Mandate Influence§"
+gain_mi:0 "§RLose 150 Political Power"
+
+
+
+
+
+
+
+
+
+
+

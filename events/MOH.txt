@@ -1,0 +1,18 @@
+﻿###########################
+# MOH Events
+###########################
+
+add_namespace = moh
+
+#test event
+country_event = {
+	id =moh.1
+	
+	is_triggered_only = yes
+
+	option = { # Refuse
+		name = moh.1.a
+		set_country_flag = moh_window_open
+		add_political_power = 40
+	}
+}
