@@ -13,6 +13,10 @@
  FRA_DEF:0 "France"
  FRA_ADJ:0 "French"
 
+ RHN:0 "Confederation of the Rhine"
+ RHN_DEF:0 "the Confederation of the Rhine"
+ RHN_ADJ: "Rhenish"
+
  
  ZHA:0 "Zhang Empire"
  ZHA_DEF:0 "the Zhang Empire"
