@@ -1,0 +1,28 @@
+ideas = {
+
+	country = {
+		catalan_autonomy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			picture = idea_catalan_autonomy
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.01
+				conscription_factor = -0.03
+			}
+		}
+
+	}
+}

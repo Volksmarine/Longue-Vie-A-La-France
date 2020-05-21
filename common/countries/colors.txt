@@ -13,8 +13,8 @@ SOV = {
 	color_ui = rgb { 163 17 31 }
 }
 SWE = {
-	color = rgb { 36 132 247 }
-	color_ui = rgb { 47 172 255 }
+	color = rgb { 87  130  199 }
+	color_ui = rgb { 87  130  199 }
 }
 FRA = {
 	color = rgb { 21 67 122 }
@@ -113,8 +113,8 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 249 126 98 }
-	color_ui = rgb { 255 164 127 }
+	color = rgb { 152  85  92 }
+	color_ui = rgb { 152  85  92 }
 }
 AFG = {
 	color = rgb { 64 160 167 }
@@ -687,8 +687,8 @@ MEK = {
 	color_ui = rgb { 186 245 86 }
 }
 PRE = {
-	color = rgb { 0  18  77 }
-	color_ui = rgb { 0  18  77 }
+	color = rgb { 0 49 83 }
+	color_ui = rgb { 0 49 83 }
 }
 SAX = {
 	color = rgb { 102 102 0 }
@@ -751,8 +751,8 @@ WST = {
 	color_ui = rgb { 171 160 12 }
 }
 SGF = {
-	color = rgb { 85 108 135 }
-	color_ui = rgb { 85 108 135 }
+	color = rgb { 142  201  208 }
+	color_ui = rgb { 142  201  208 }
 }
 ZHA = {
 	color = rgb { 55 168 205 }

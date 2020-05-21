@@ -4569,4 +4569,7 @@ spriteTypes = {
 		name = "GFX_idea_idea_under_the_russian_boot"
 		texturefile = "gfx/interface/ideas/idea_under_the_russian_boot.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_idea_catalan_autonomy"
+		texturefile = "gfx/interface/ideas/idea_catalan_autonomy.dds"
 }
