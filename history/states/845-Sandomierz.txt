@@ -1,0 +1,13 @@
+state={
+	id=845
+	name="STATE_845"
+	provinces={
+		562 3458 6416 11532 
+	}
+	history = {
+	owner = POL
+	add_core_of = POL
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

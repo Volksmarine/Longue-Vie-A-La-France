@@ -1,0 +1,17 @@
+
+state={
+	id=843
+	name="STATE_843"
+
+	history={
+		owner = POL
+		add_core_of = POL
+
+	}
+
+	provinces={
+		400 3254 3272 6407 11274 11312 11329 11357 13563 13564 13565 13566
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

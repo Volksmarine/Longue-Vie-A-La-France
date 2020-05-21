@@ -1,0 +1,17 @@
+
+state={
+	id=844
+	name="STATE_844"
+
+	history={
+		owner = POL
+		add_core_of = POL
+
+	}
+
+	provinces={
+		402 3521 9544 11466 13561 13562 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
