@@ -18,10 +18,11 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_power_gain = 0.5
+				political_power_gain = 0.15
 				enemy_justify_war_goal_time = -0.3
 				high_command_cost_factor = 0.1
 				autocracy_drift = 0.05
+				conscription_factor = -0.45
 			}
 		}
 		
@@ -69,10 +70,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				min_export = -3.0
-				research_speed_factor = -0.1
-				trade_laws_cost_factor = 3.0
-				trade_opinion_factor = -3.0
+				min_export = -5.0
+				research_speed_factor = -0.15
+				trade_laws_cost_factor = 5.0
+				trade_opinion_factor = -5.0
 				drift_defence_factor = 0.25
 				join_faction_tension = 0.5
 				lend_lease_tension = 0.5
@@ -98,9 +99,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = -0.25
+				stability_factor = -0.35
 				war_support_factor = -0.1
-				conscription_factor = -0.45
 				army_org_factor = -0.25
 			}
 		}
@@ -122,7 +122,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				monthly_population = -0.05
+				monthly_population = -0.3
 				stability_factor = 0.05
 			}
 		}
