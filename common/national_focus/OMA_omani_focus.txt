@@ -1,0 +1,1607 @@
+focus_tree = {
+	id = omani_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OMA
+		}
+	}
+continuous_focus_position = { x = 10 y = 3000 }
+	#Focus for United under one Flag
+	focus = {
+		id = OMA_united_under_one_flag
+		icon = GFX_goal_generic_national_unity
+		x = 39
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_ban_foreign_investors }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Recovery from the civil war
+	focus = {
+		id = OMA_recovery_from_the_civil_war
+		icon = GFX_goal_generic_construction2
+		x = 44
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_a_government_for_the_people }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The 5 Year Plan
+	focus = {
+		id = OMA_the_5_year_plan
+		icon = GFX_focus_generic_industry_3
+		x = 42
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_recovery_from_the_civil_war }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rebuild the economy
+	focus = {
+		id = OMA_rebuild_the_economy
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 43
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_the_5_year_plan }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Military Production
+	focus = {
+		id = OMA_military_production
+		icon = GFX_focus_generic_tank_production
+		x = 45
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_promote_local_production }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reintegrate our Overseas Territories
+	focus = {
+		id = OMA_reintegrate_our_overseas_territories
+		icon = GFX_goal_generic_position_armies
+		x = 44
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_recovery_from_the_civil_war }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Pass new Reforms
+	focus = {
+		id = OMA_pass_new_reforms
+		icon = GFX_goal_generic_forceful_treaty
+		x = 48
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_hold_the_first_election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Civilian Industry
+	focus = {
+		id = OMA_civilian_industry
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 50
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_hold_the_first_election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for French Support
+	focus = {
+		id = OMA_french_support
+		icon = GFX_focus_chi_reach_out_to_france
+		x = 49
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_pass_new_reforms 
+		}
+		prerequisite = { 
+			focus = OMA_civilian_industry 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Become a French Puppet
+	focus = {
+		id = OMA_become_a_french_puppet
+		icon = GFX_focus_generic_self_management
+		x = 49
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_french_support }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ahmad Muhammad Numan's Leadership
+	focus = {
+		id = OMA_ahmad_muhammad_numans_leadership
+		icon = GFX_goal_support_fascism
+		x = 37
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_choose_our_new_leader }
+		mutually_exclusive = { focus = OMA_keep_the_sultan }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Negotiate with the Rebels
+	focus = {
+		id = OMA_negotiate_with_the_rebels
+		icon = GFX_goal_generic_dangerous_deal
+		x = 15
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_adopt_revolutionary_ideals }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Industrialized Zanzibar
+	focus = {
+		id = OMA_industrialized_zanzibar
+		icon = GFX_focus_generic_industry_3
+		x = 26
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_zanzibar_development_plan }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Promote Immigration
+	focus = {
+		id = OMA_promote_immigration
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		x = 28
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_zanzibar_development_plan }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Weapon Factories
+	focus = {
+		id = OMA_weapon_factories
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 20
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_mobilize_the_people }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Closed Economy
+	focus = {
+		id = OMA_closed_economy
+		icon = GFX_goal_generic_fortify_city
+		x = 20
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_destroy_the_rebels }
+		mutually_exclusive = { focus = OMA_free_the_trade_back_up }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Anti-West Alliance
+	focus = {
+		id = OMA_antiwest_alliance
+		icon = GFX_goal_tripartite_pact
+		x = 13
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_the_western_threats }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Increase Civilian Economy
+	focus = {
+		id = OMA_increase_civilian_economy
+		icon = GFX_goal_generic_construct_civilian
+		x = 24
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_focus_on_a_low_economic_impact }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Free Egypt
+	focus = {
+		id = OMA_free_egypt
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 14
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_ally_russian_communists }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for End the Italian Colonial Regime
+	focus = {
+		id = OMA_end_the_italian_colonial_regime
+		icon = GFX_focus_attack_italy
+		x = 15
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_antiwest_alliance }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Liberate Portuguese Africa
+	focus = {
+		id = OMA_liberate_portuguese_africa
+		icon = GFX_focus_generic_attack_portugal
+		x = 13
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_antiwest_alliance }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Dismantle France
+	focus = {
+		id = OMA_dismantle_france
+		icon = GFX_focus_attack_france
+		x = 11
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_antiwest_alliance }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Perfect Time to Liberate Persia
+	focus = {
+		id = OMA_perfect_time_to_liberate_persia
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_arab_liberation_movement }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ally Russian Communists
+	focus = {
+		id = OMA_ally_russian_communists
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		x = 13
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_free_the_saudis 
+		}
+		prerequisite = { 
+			focus = OMA_perfect_time_to_liberate_persia 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Liberate the Kurds
+	focus = {
+		id = OMA_liberate_the_kurds
+		icon = GFX_goal_generic_war_with_comintern
+		x = 12
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_ally_russian_communists }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Free the Saudis
+	focus = {
+		id = OMA_free_the_saudis
+		icon = GFX_goal_generic_military_sphere
+		x = 12
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_arab_liberation_movement }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for 5 Year Zanzibar Plan
+	focus = {
+		id = OMA_5_year_zanzibar_plan
+		icon = GFX_goal_generic_production
+		x = 27
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_promote_immigration 
+		}
+		prerequisite = { 
+			focus = OMA_industrialized_zanzibar 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Military Funding
+	focus = {
+		id = OMA_military_funding
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 2
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_conquer_new_areas }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for African Regiments
+	focus = {
+		id = OMA_african_regiments
+		icon = GFX_focus_por_luso_tropicalism
+		x = 8
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_african_reconquest }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Realign Somalia
+	focus = {
+		id = OMA_realign_somalia
+		icon = GFX_goal_generic_small_arms
+		x = 7
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_african_reconquest }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mobilize the people
+	focus = {
+		id = OMA_mobilize_the_people
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 21
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_focus_on_the_rebels }
+		mutually_exclusive = { focus = OMA_focus_on_a_low_economic_impact }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Raid of Salalah
+	focus = {
+		id = OMA_raid_of_salalah
+		icon = GFX_goal_generic_position_armies
+		x = 22
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_focus_on_the_rebels }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Arab Liberation Movement
+	focus = {
+		id = OMA_arab_liberation_movement
+		icon = GFX_goal_generic_propaganda
+		x = 13
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_fight_for_our_ideas }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Unify Arabia
+	focus = {
+		id = OMA_unify_arabia
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 5
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_realign_somalia 
+		}
+		prerequisite = { 
+			focus = OMA_yemeni_purchase 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Move Further North
+	focus = {
+		id = OMA_move_further_north
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_conquer_the_saudis 
+		}
+		prerequisite = { 
+			focus = OMA_strike_persia 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Legacy
+	focus = {
+		id = OMA_our_legacy
+		icon = GFX_focus_generic_home_defense
+		x = 5
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_move_further_north }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Zanzibar Development Plan
+	focus = {
+		id = OMA_zanzibar_development_plan
+		icon = GFX_goal_generic_construct_civilian
+		x = 27
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_glory_to_zanzibars_al_said_dynasty 
+		}
+		prerequisite = { 
+			focus = OMA_glory_to_the_sultan 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Independent Country, Independent Economy
+	focus = {
+		id = OMA_independent_country_independent_economy
+		icon = GFX_goal_generic_political_pressure
+		x = 1
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_revive_the_past_empire }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Conquer new areas
+	focus = {
+		id = OMA_conquer_new_areas
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_proclaim_the_second_omani_empire }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Yemeni Purchase
+	focus = {
+		id = OMA_yemeni_purchase
+		icon = GFX_focus_mex_privatisation
+		x = 3
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_conquer_new_areas }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Proclaim the Second Omani Empire
+	focus = {
+		id = OMA_proclaim_the_second_omani_empire
+		icon = GFX_goal_generic_demand_territory
+		x = 5
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_victory_over_rebels }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for African Reconquest
+	focus = {
+		id = OMA_african_reconquest
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = 8
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_proclaim_the_second_omani_empire }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Further Submission to France
+	focus = {
+		id = OMA_further_submission_to_france
+		icon = GFX_focus_chi_reach_out_to_france
+		x = 9
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_increased_trade_with_france }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Sultan Succession Crisis
+	focus = {
+		id = OMA_sultan_succession_crisis
+		icon = GFX_focus_generic_support_the_left_right
+		x = 30
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = OMA_no_more_sultans }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Demand Yemen Back
+	focus = {
+		id = OMA_demand_yemen_back
+		icon = GFX_goal_generic_political_pressure
+		x = 16
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_the_second_omani_empire }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Free up the Ports
+	focus = {
+		id = OMA_free_up_the_ports
+		icon = GFX_goal_generic_navy_cruiser
+		x = 8
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_french_help }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Conscription in Zanzibar
+	focus = {
+		id = OMA_conscription_in_zanzibar
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 5
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_move_our_army_to_the_south }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Old Glories
+	focus = {
+		id = OMA_the_old_glories
+		icon = GFX_focus_generic_industry_3
+		x = 17
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_the_said_bin_taimur_coup 
+			focus = OMA_adopt_revolutionary_ideals 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Move our Army to the south
+	focus = {
+		id = OMA_move_our_army_to_the_south
+		icon = GFX_focus_secret_rearmament
+		x = 5
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_crush_the_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Military Training Programs
+	focus = {
+		id = OMA_military_training_programs
+		icon = GFX_focus_generic_military_mission
+		x = 2
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_the_might_of_oman }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for All for the Sultan!
+	focus = {
+		id = OMA_all_for_the_sultan
+		icon = GFX_focus_generic_military_academy
+		x = 5
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_military_training_programs 
+		}
+		prerequisite = { 
+			focus = OMA_free_up_the_ports 
+		}
+		prerequisite = { 
+			focus = OMA_conscription_in_zanzibar 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Said bin Taimur Coup
+	focus = {
+		id = OMA_the_said_bin_taimur_coup
+		icon = GFX_focus_rom_handle_king
+		x = 19
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_internal_matters }
+		mutually_exclusive = { focus = OMA_our_perfect_time_to_defect }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Internal Matters
+	focus = {
+		id = OMA_internal_matters
+		icon = GFX_focus_generic_industry_1
+		x = 22
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = OMA_open_the_borders }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Open the borders
+	focus = {
+		id = OMA_open_the_borders
+		icon = GFX_goal_generic_trade
+		x = 8
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = OMA_internal_matters }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Crush the Revolution
+	focus = {
+		id = OMA_crush_the_revolution
+		icon = GFX_focus_eng_crush_the_dream
+		x = 5
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_open_the_borders }
+		mutually_exclusive = { focus = OMA_adopt_revolutionary_ideals }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Adopt Revolutionary ideals
+	focus = {
+		id = OMA_adopt_revolutionary_ideals
+		icon = GFX_focus_ger_assassinate_mussolini
+		x = 13
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_open_the_borders }
+		mutually_exclusive = { focus = OMA_crush_the_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Conquer the Horn
+	focus = {
+		id = OMA_conquer_the_horn
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 17
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_demand_yemen_back 
+		}
+		prerequisite = { 
+			focus = OMA_reclaim_somalia 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fall of the Omani al Said dynasty
+	focus = {
+		id = OMA_fall_of_the_omani_al_said_dynasty
+		icon = GFX_focus_generic_manpower
+		x = 26
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_our_perfect_time_to_defect 
+		}
+		prerequisite = { 
+			focus = OMA_support_zanzibar 
+		}
+		mutually_exclusive = { 
+			focus = OMA_come_to_a_compromise 
+		}
+		mutually_exclusive = { 
+			focus = OMA_the_glories_of_the_omani_al_said_dynasty 
+		}
+		mutually_exclusive = { 
+			focus = OMA_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Make Abdullah al-Sallal our Prime Minister
+	focus = {
+		id = OMA_make_abdullah_alsallal_our_prime_minister
+		icon = GFX_goal_generic_war_with_comintern
+		x = 11
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_adopt_revolutionary_ideals }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Radical Reforms
+	focus = {
+		id = OMA_radical_reforms
+		icon = GFX_goal_generic_forceful_treaty
+		x = 13
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_adopt_revolutionary_ideals 
+		}
+		prerequisite = { 
+			focus = OMA_make_abdullah_alsallal_our_prime_minister 
+		}
+		prerequisite = { 
+			focus = OMA_negotiate_with_the_rebels 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Might of Oman!
+	focus = {
+		id = OMA_the_might_of_oman
+		icon = GFX_focus_generic_little_entente
+		x = 3
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_move_our_army_to_the_south }
+		mutually_exclusive = { focus = OMA_french_help }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for French Help
+	focus = {
+		id = OMA_french_help
+		icon = GFX_focus_chi_reach_out_to_france
+		x = 7
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_move_our_army_to_the_south }
+		mutually_exclusive = { focus = OMA_the_might_of_oman }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Increased trade with France
+	focus = {
+		id = OMA_increased_trade_with_france
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 8
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_french_help 
+		}
+		prerequisite = { 
+			focus = OMA_all_for_the_sultan 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Revive the past Empire
+	focus = {
+		id = OMA_revive_the_past_empire
+		icon = GFX_goal_generic_demand_territory
+		x = 2
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_the_might_of_oman 
+		}
+		prerequisite = { 
+			focus = OMA_all_for_the_sultan 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Victory Over Rebels
+	focus = {
+		id = OMA_victory_over_rebels
+		icon = GFX_goal_anti_comintern_pact
+		x = 5
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_all_for_the_sultan }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Support Zanzibar
+	focus = {
+		id = OMA_support_zanzibar
+		icon = GFX_goal_generic_demand_territory
+		x = 28
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_sultan_succession_crisis }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Glories of the Omani al Said Dynasty
+	focus = {
+		id = OMA_the_glories_of_the_omani_al_said_dynasty
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 34
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_support_oman }
+		mutually_exclusive = { 
+			focus = OMA_fall_of_the_omani_al_said_dynasty 
+		}
+		mutually_exclusive = { 
+			focus = OMA_come_to_a_compromise 
+		}
+		mutually_exclusive = { 
+			focus = OMA_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Support Oman
+	focus = {
+		id = OMA_support_oman
+		icon = GFX_goal_generic_demand_territory
+		x = 32
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_sultan_succession_crisis }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Come to a Compromise
+	focus = {
+		id = OMA_come_to_a_compromise
+		icon = GFX_goal_generic_dangerous_deal
+		x = 30
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_support_zanzibar 
+		}
+		prerequisite = { 
+			focus = OMA_support_oman 
+		}
+		mutually_exclusive = { 
+			focus = OMA_fall_of_the_omani_al_said_dynasty 
+		}
+		mutually_exclusive = { 
+			focus = OMA_the_glories_of_the_omani_al_said_dynasty 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Zanzibar our Capital
+	focus = {
+		id = OMA_zanzibar_our_capital
+		icon = GFX_goal_generic_production2
+		x = 26
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_fall_of_the_omani_al_said_dynasty }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Muscat our Capital
+	focus = {
+		id = OMA_muscat_our_capital
+		icon = GFX_goal_generic_production
+		x = 34
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_the_glories_of_the_omani_al_said_dynasty }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Return of the Dual Monarchy
+	focus = {
+		id = OMA_return_of_the_dual_monarchy
+		icon = GFX_focus_generic_treaty
+		x = 28
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_come_to_a_compromise }
+		mutually_exclusive = { focus = OMA_a_sultan_for_both }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Sultan for both
+	focus = {
+		id = OMA_a_sultan_for_both
+		icon = GFX_goal_generic_improve_relations
+		x = 32
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_come_to_a_compromise }
+		mutually_exclusive = { focus = OMA_return_of_the_dual_monarchy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Renew the Muscat-Zanzibar Treaty
+	focus = {
+		id = OMA_renew_the_muscatzanzibar_treaty
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 30
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_return_of_the_dual_monarchy 
+			focus = OMA_a_sultan_for_both 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Glory to Zanzibar's al Said Dynasty!
+	focus = {
+		id = OMA_glory_to_zanzibars_al_said_dynasty
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		x = 26
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_zanzibar_our_capital }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Glory to Oman's al Said Dynasty!
+	focus = {
+		id = OMA_glory_to_omans_al_said_dynasty
+		icon = GFX_goal_generic_demand_territory
+		x = 34
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_muscat_our_capital }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for No more Sultans
+	focus = {
+		id = OMA_no_more_sultans
+		icon = GFX_focus_rom_abdicate
+		x = 44
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = OMA_sultan_succession_crisis }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Hold the First Election
+	focus = {
+		id = OMA_hold_the_first_election
+		icon = GFX_goal_generic_major_alliance
+		x = 49
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_let_the_people_decide }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Government for the People
+	focus = {
+		id = OMA_a_government_for_the_people
+		icon = GFX_goal_generic_national_unity
+		x = 44
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_appease_the_revolutionaries }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Keep the Sultan
+	focus = {
+		id = OMA_keep_the_sultan
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 39
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_choose_our_new_leader }
+		mutually_exclusive = { focus = OMA_ahmad_muhammad_numans_leadership }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Let the People Decide
+	focus = {
+		id = OMA_let_the_people_decide
+		icon = GFX_goal_support_democracy
+		x = 49
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_no_more_sultans }
+		mutually_exclusive = { 
+			focus = OMA_nationalistic_pride 
+		}
+		mutually_exclusive = { 
+			focus = OMA_appease_the_revolutionaries 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Appease the Revolutionaries
+	focus = {
+		id = OMA_appease_the_revolutionaries
+		icon = GFX_goal_support_communism
+		x = 44
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_no_more_sultans }
+		mutually_exclusive = { 
+			focus = OMA_nationalistic_pride 
+		}
+		mutually_exclusive = { 
+			focus = OMA_let_the_people_decide 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Nationalistic Pride
+	focus = {
+		id = OMA_nationalistic_pride
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		x = 38
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_no_more_sultans }
+		mutually_exclusive = { 
+			focus = OMA_appease_the_revolutionaries 
+		}
+		mutually_exclusive = { 
+			focus = OMA_let_the_people_decide 
+		}
+		mutually_exclusive = { 
+			focus = OMA_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The second Omani Empire
+	focus = {
+		id = OMA_the_second_omani_empire
+		icon = GFX_goal_generic_demand_territory
+		x = 17
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_the_old_glories }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Glory to the Sultan
+	focus = {
+		id = OMA_glory_to_the_sultan
+		icon = GFX_focus_generic_home_defense
+		x = 30
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_glory_to_omans_al_said_dynasty 
+			focus = OMA_glory_to_zanzibars_al_said_dynasty 
+			focus = OMA_renew_the_muscatzanzibar_treaty 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Perfect Time to Defect
+	focus = {
+		id = OMA_our_perfect_time_to_defect
+		icon = GFX_goal_generic_territory_or_war
+		x = 24
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_internal_matters }
+		mutually_exclusive = { focus = OMA_the_said_bin_taimur_coup }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reclaim Somalia
+	focus = {
+		id = OMA_reclaim_somalia
+		icon = GFX_goal_generic_position_armies
+		x = 18
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_the_second_omani_empire }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fight for our Ideas
+	focus = {
+		id = OMA_fight_for_our_ideas
+		icon = GFX_goal_support_communism
+		x = 13
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_radical_reforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Deport Taimur bin Feisal
+	focus = {
+		id = OMA_deport_taimur_bin_feisal
+		icon = GFX_goal_generic_secret_weapon
+		x = 20
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_the_said_bin_taimur_coup }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Choose our new leader
+	focus = {
+		id = OMA_choose_our_new_leader
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 38
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_nationalistic_pride }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ban Foreign Investors
+	focus = {
+		id = OMA_ban_foreign_investors
+		icon = GFX_goal_generic_defence
+		x = 38
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_ahmad_muhammad_numans_leadership 
+			focus = OMA_keep_the_sultan 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Omani Pride
+	focus = {
+		id = OMA_omani_pride
+		icon = GFX_goal_generic_demand_territory
+		x = 37
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_ban_foreign_investors }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Promote Local Production
+	focus = {
+		id = OMA_promote_local_production
+		icon = GFX_goal_generic_construct_civilian
+		x = 46
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_recovery_from_the_civil_war }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Focus on the Rebels
+	focus = {
+		id = OMA_focus_on_the_rebels
+		icon = GFX_goal_generic_construct_military
+		x = 22
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_internal_matters }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Focus on a low economic impact
+	focus = {
+		id = OMA_focus_on_a_low_economic_impact
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 23
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_focus_on_the_rebels }
+		mutually_exclusive = { focus = OMA_mobilize_the_people }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Capture Rebel Equipment
+	focus = {
+		id = OMA_capture_rebel_equipment
+		icon = GFX_goal_generic_small_arms
+		x = 22
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_raid_of_salalah }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Conquer the Saudis
+	focus = {
+		id = OMA_conquer_the_saudis
+		icon = GFX_goal_generic_position_armies
+		x = 3
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_unify_arabia }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Strike Persia
+	focus = {
+		id = OMA_strike_persia
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 7
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_unify_arabia }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Greater Omani Economy
+	focus = {
+		id = OMA_greater_omani_economy
+		icon = GFX_focus_generic_industry_3
+		x = 5
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_proclaim_the_second_omani_empire }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Invest in the African Economy
+	focus = {
+		id = OMA_invest_in_the_african_economy
+		icon = GFX_focus_generic_africa_factory
+		x = 5
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_greater_omani_economy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Western Threats
+	focus = {
+		id = OMA_the_western_threats
+		icon = GFX_focus_usa_focus_on_europe
+		x = 13
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_liberate_the_kurds 
+		}
+		prerequisite = { 
+			focus = OMA_free_egypt 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Free the Trade Back up
+	focus = {
+		id = OMA_free_the_trade_back_up
+		icon = GFX_goal_generic_trade
+		x = 24
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = OMA_destroy_the_rebels 
+		}
+		prerequisite = { 
+			focus = OMA_glory_to_zanzibars_al_said_dynasty 
+		}
+		mutually_exclusive = { focus = OMA_closed_economy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Destroy the Rebels
+	focus = {
+		id = OMA_destroy_the_rebels
+		icon = GFX_goal_anti_comintern_pact
+		x = 22
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = OMA_capture_rebel_equipment }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }
