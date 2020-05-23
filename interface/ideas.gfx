@@ -4572,4 +4572,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_idea_catalan_autonomy"
 		texturefile = "gfx/interface/ideas/idea_catalan_autonomy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_idea_political_divisions"
+		texturefile = "gfx/interface/ideas/idea_political_divisions.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_triumph_in_europe"
+		texturefile = "gfx/interface/ideas/idea_triumph_in_europe.dds"
 }
