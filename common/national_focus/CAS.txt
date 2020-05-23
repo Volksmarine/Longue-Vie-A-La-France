@@ -1833,7 +1833,7 @@ focus = {
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = CAS_The_State_of_the_Army }
 		mutually_exclusive = { focus = CAS_European_Traditions focus = CAS_A_Mobile_Strategy }
-		x = -3
+		x = -4
 		y = 1
 		cost = 10
 		relative_position_id = CAS_The_State_of_the_Army
@@ -1873,20 +1873,7 @@ focus = {
 
 
 }
-focus = {
-		id = CAS_New_Guns_for_our_Troops
-		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_European_Traditions focus = CAS_A_Mobile_Strategy }
-		x = 2
-		y = 1
-		cost = 10
-		relative_position_id = CAS_European_Traditions
-		ai_will_do = {
-			factor = 8
-		}
 
-
-}
 focus = {
 		id = CAS_Invest_in_Trucks
 		icon = GFX_goal_generic_construct_military
@@ -1930,7 +1917,7 @@ focus = {
 
 }
 focus = {
-		id = CAS_The_Art_of_War
+		id = CAS_Confederacy_Art_of_War
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = CAS_European_Traditions }
 		x = 0
@@ -1976,11 +1963,11 @@ focus = {
 focus = {
 		id = CAS_Entrenchment_Saves_Lives
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = CAS_The_Art_of_War }
+		prerequisite = { focus = CAS_Confederacy_Art_of_War }
 		x = 0
 		y = 1
 		cost = 10
-		relative_position_id = CAS_The_Art_of_War
+		relative_position_id = CAS_Confederacy_Art_of_War
 		ai_will_do = {
 			factor = 8
 		}
@@ -2016,7 +2003,7 @@ focus = {
 
 }
 focus = {
-		id = CAS_Reduce_Troop_Deaths
+		id = CAS_Military_Hospitals
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = CAS_Enforced_Military_Hierarchy }
 		x = -1
@@ -2057,7 +2044,164 @@ focus = {
 
 
 }
+focus = {
+		id = CAS_The_Power_of_Man
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Overpower_with_Firepower }
+		mutually_exclusive = { focus = CAS_The_Power_of_Machine }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Overpower_with_Firepower
+		ai_will_do = {
+			factor = 8
+		}
 
+
+}
+focus = {
+		id = CAS_The_Power_of_Machine
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Overpower_with_Firepower }
+		mutually_exclusive = { focus = CAS_The_Power_of_Man }
+		x = -4
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Overpower_with_Firepower
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Allow_Women_as_Medics
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Military_Hospitals }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Military_Hospitals
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Modernize_our_Artillery
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_The_Power_of_Machine }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = CAS_The_Power_of_Machine
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Take_on_the_Skies
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Modernize_our_Artillery }
+		mutually_exclusive = { focus = CAS_Take_on_Tanks }
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Modernize_our_Artillery
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Take_on_Tanks
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Modernize_our_Artillery }
+		mutually_exclusive = { focus = CAS_Take_on_the_Skies }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Modernize_our_Artillery
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Weapons_for_the_Troops
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_The_Power_of_Man }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = CAS_The_Power_of_Man
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Modernize_Guns
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Weapons_for_the_Troops }
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Weapons_for_the_Troops
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Harsh_Training
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Weapons_for_the_Troops }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Weapons_for_the_Troops
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_And_Some_Magic_Dust
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Harsh_Training }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Harsh_Training
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
+focus = {
+		id = CAS_Mobility_Wins_Wars
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = CAS_Adopt_a_New_Strategy }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = CAS_Adopt_a_New_Strategy
+		ai_will_do = {
+			factor = 8
+		}
+
+
+}
 
 
 
