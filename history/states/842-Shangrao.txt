@@ -4,7 +4,6 @@ state={
 	history = {
 		owner = HVK
 		add_core_of = HVK
-		add_core_of = ZHA
 	}
 	provinces={
 		1066 1110 4038 4185 7054 9984 11961

@@ -7,7 +7,6 @@ state=
 	history=
 	{
 		owner = HVK
-		add_core_of = ZHA
 		add_core_of = HVK
 		victory_points = { 
 			9974 1 
@@ -18,7 +17,8 @@ state=
 		
 		buildings = {
 			infrastructure = 4
-
+			industrial_complex = 3
+			arms_factory = 3
 			7191 = {
 				naval_base = 1
 				coastal_bunker = 1

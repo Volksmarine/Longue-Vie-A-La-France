@@ -28,7 +28,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Tögs-Ochiryn Namnansüren"
-	picture = "Portrait_MON_Togs_Ochiryn_Namnansuren"
+	picture = "Portrait_MON_Togs_Ochiryn_Namnansuren.dds"
 	expire = "1965.1.1"
 	ideology = monarchism
 	traits = {
@@ -38,7 +38,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Dambiijantsan Khan"
-	picture = "Portrait_MON_Dambiijantsan"
+	picture = "Portrait_MON_Dambiijantsan.dds"
 	expire = "1965.1.1"
 	ideology = militarism
 	traits = {

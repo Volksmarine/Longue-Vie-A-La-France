@@ -10,6 +10,7 @@ set_technology = {
 
 set_convoys = 5
 
+set_cosmetic_tag = RHN_FRA_democratic
 
 set_politics = {
 	ruling_party = liberalism
@@ -24,3 +25,4 @@ set_popularities = {
 	liberalism = 49
 	conservativism = 47
 }
+

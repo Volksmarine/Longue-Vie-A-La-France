@@ -7,11 +7,9 @@ state={
 
 	history={
 		owner = ZHA
-		add_core_of = ZHA
 		buildings = {
 			infrastructure = 4
-			arms_factory = 3
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 2
 		}
 		victory_points = {

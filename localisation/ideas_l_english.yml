@@ -10,6 +10,13 @@
  idea_moh3:0 "Riches of the Silk Road"
  idea_moh4:0 "One Dynasty United"
  idea_moh5:0 "The Tributary Fleet"
+ catalan_autonomy:0 "Catalan Autonomy"
+ catalan_autonomy_desc:0 "As the situation in Catalonia is far from stable, we must plot our course carefully. While expansionist elements in our government are opting for full integration and the stationing of our troops within the region, critics are concerned this could raise tensions and prompt resistance. We must thoroughly evaluate this situation and act prudently."
+ political_divisions:0 "Political Divisions"
+ political_divisions_desc:0 "Despite the hold that the Conservatives have maintained on our government, left-wing elements are gaining traction. Workers are unhappy with the policies implemented by the right-wing government, and strikes are not unusual. As more left-wing representatives are coming into power, some sort of solution must be devised, else our industry and government be crippled by division."
+ triumph_in_europe:0 "Triumph in Europe"
+ triumph_in_europe_desc:0 "The brave soldiers of France fought and won one of the bloodiest conflicts in history, and our nation has emerged as the dominant power in Europe as a result of their sacrifice. While some nations may challenge our authority and policy, the French people can rest assured that if a conflict arises, we will win it, much as we won the Great War."
+
  
  
  
