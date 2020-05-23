@@ -1,0 +1,127 @@
+capital = 357
+
+oob = "BOT_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+#PUPPET
+if = {
+	}
+	set_autonomy = {
+		target = RHN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	165 = {
+		add_dynamic_modifier = { modifier = autonomous_state }
+}
+
+create_country_leader = {
+	
+	name = "Marc Sangnier"
+	picture = "Marc_Sangnier.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Alexandre Bachelet"
+	picture = "Alexandre_Bachelet.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Sven Olov Lindholm"
+	picture = "Sven_Olov_Lindholm.dds"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Pierre Taittinger"
+	picture = "Pierre_Taittinger.dds"
+	expire = "1965.1.1"
+	ideology = jingoism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Guy Mollet"
+	picture = "Guy_Mollet.dds"
+	expire = "1965.1.1"
+	ideology = jacobinism
+	traits = {
+		#
+	}
+}
+
+
+set_convoys = 5
+
+1939.1.1 = {
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = conservativism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	ultranationalism = 2
+	communism = 5
+	autocracy = 1
+	liberalism = 34
+	conservativism = 38
+	socialism = 20
+	}
+}

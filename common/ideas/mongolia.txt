@@ -1,0 +1,111 @@
+ideas = {
+
+	country = {
+		under_the_russian_boot = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			picture = idea_under_the_russian_boot
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = 0.1
+				political_power_gain = -0.1
+			}
+		}
+		
+		legacy_of_the_great_khan = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = idea_legacy_of_the_great_khan
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.15
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
+				cavalry_attack_factor = 0.3
+				cavalry_defence_factor = 0.3
+				army_speed_factor = 0.15
+			}
+		}
+		
+		blood_for_the_sky_god = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = idea_blood_for_the_sky_god
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				if = {
+					limit = {
+						ZHA = {
+							exists = yes
+						}
+					}
+					targeted_modifier = {
+						tag = ZHA
+						attack_bonus_against = 0.2
+						defense_bonus_against = 0.2
+					}
+				}
+				
+				if = {
+					limit = {
+						CHI = {
+							exists = yes
+						}
+					}
+					targeted_modifier = {
+						tag = CHI
+						attack_bonus_against = 0.2
+						defense_bonus_against = 0.2
+					}
+				}
+				
+				if = {
+					limit = {
+						HVK = {
+							exists = yes
+						}
+					}
+					targeted_modifier = {
+						tag = HVK
+						attack_bonus_against = 0.2
+						defense_bonus_against = 0.2
+					}
+				}
+			}
+		}
+	}
+}

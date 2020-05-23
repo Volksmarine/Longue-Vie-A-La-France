@@ -12,6 +12,8 @@ ideas = {
 					has_government = communism
 				}
 			}
+			
+			picture = idea_tied_to_the_west
 
 			removal_cost = -1
 			
@@ -28,6 +30,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			picture = idea_a_state_of_god
 
 			allowed_civil_war = {
 				NOT = {
@@ -49,6 +53,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			picture = idea_federalized_schools
 
 			allowed_civil_war = {
 				NOT = {
@@ -69,6 +75,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			picture = idea_crippled_nation
 
 			allowed_civil_war = {
 				NOT = {
