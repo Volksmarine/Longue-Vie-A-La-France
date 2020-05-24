@@ -1,0 +1,82 @@
+ideas = {
+
+	country = {
+		idea_moh1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.15
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+				army_org_factor = 0.15
+			}
+		}
+		
+		idea_moh2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				non_core_manpower = 0.15
+				conscription_factor = 0.1
+				land_reinforce_rate = 0.15
+			}
+		}
+		
+		idea_moh3 = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				industrial_capacity_factory = 0.15
+				production_factory_max_efficiency_factor = 0.15
+			}
+		}
+		
+		idea_moh4 = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.2
+				war_support_factor = 0.2
+				political_power_gain = 0.15
+			}
+		}
+		
+		idea_moh5 = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				naval_hit_chance = 0.15
+				naval_speed_factor = 0.15
+				spotting_chance = 0.15
+				naval_coordination = 0.15
+			}
+		}
+		
+	}
+}

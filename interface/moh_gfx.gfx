@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	
+	SpriteType = { 
+		name = "GFX_moh_background"
+		texturefile = "gfx/moh_interface/moh_background.dds"
+	}
+}

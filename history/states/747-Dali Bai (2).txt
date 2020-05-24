@@ -5,7 +5,6 @@ state={
 
 	history={
 		owner = YUN
-		add_core_of = ZHA
 		add_core_of = YUN
 		victory_points = {
 			7965 3 

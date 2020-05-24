@@ -6,11 +6,11 @@ state= {
 	history=
 	{
 		owner = HVK
-		add_core_of = ZHA
 		add_core_of = HVK
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 2
+			industrial_complex = 4
+			arms_factory = 3
 			7071 = {
 				naval_base = 1
 				coastal_bunker = 1

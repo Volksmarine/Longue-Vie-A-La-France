@@ -1,0 +1,409 @@
+scripted_gui = {
+	moh_main_container = {
+		context_type = player_context
+		window_name = "moh_main_container"
+		
+		visible = {
+			has_country_flag = moh_window_open
+		}
+		triggers = {
+
+			moh_gain_influence_click_enabled = {
+				has_country_flag = holder_of_mandate
+				NOT = {
+				check_variable = { 
+					var = var_mandate_influence 
+					value = 100
+				}
+				}
+			}
+		
+			moh_ability_1_click_enabled = {
+				has_country_flag = holder_of_mandate
+				check_variable = { 
+					var = var_mandate_influence 
+					value > 20
+				}
+			}
+			moh_ability_2_click_enabled = {
+				has_country_flag = holder_of_mandate
+				check_variable = { 
+					var = var_mandate_influence 
+					value > 20
+				}
+			}
+			moh_ability_3_click_enabled = {
+				has_country_flag = holder_of_mandate
+				check_variable = { 
+					var = var_mandate_influence 
+					value > 20
+				}
+			}
+			moh_ability_4_click_enabled = {
+				has_country_flag = holder_of_mandate
+				check_variable = { 
+					var = var_mandate_influence 
+					value > 20
+				}
+			}
+			moh_ability_5_click_enabled = {
+				has_country_flag = holder_of_mandate
+				check_variable = { 
+					var = var_mandate_influence 
+					value > 20
+				}
+			}
+		}
+		effects = {
+			moh_close_click = {
+				clr_country_flag = moh_window_open
+			}
+			
+			moh_gain_influence_click = {
+				add_political_power = -150
+				every_country = {
+					add_to_variable = {
+						var = var_mandate_influence
+						value = 20
+					}
+				}
+			}
+			
+			moh_ability_1_click = {
+				every_country = {
+					subtract_from_variable = {
+						var = var_mandate_influence
+						value = 20
+					}
+				}
+				
+				add_timed_idea = {
+					idea = idea_moh1
+					days = 100
+				}
+			}
+			
+			moh_ability_2_click = {
+				every_country = {
+					subtract_from_variable = {
+						var = var_mandate_influence
+						value = 20
+					}
+				}
+				
+				add_timed_idea = {
+					idea = idea_moh2
+					days = 100
+				}
+			}
+			
+			moh_ability_3_click = {
+				every_country = {
+					subtract_from_variable = {
+						var = var_mandate_influence
+						value = 20
+					}
+				}
+				
+				add_timed_idea = {
+					idea = idea_moh3
+					days = 100
+				}
+			}
+			
+			moh_ability_4_click = {
+				every_country = {
+					subtract_from_variable = {
+						var = var_mandate_influence
+						value = 20
+					}
+				}
+				
+				add_timed_idea = {
+					idea = idea_moh4
+					days = 100
+				}
+			}
+			
+			moh_ability_5_click = {
+				every_country = {
+					subtract_from_variable = {
+						var = var_mandate_influence
+						value = 20
+					}
+				}
+				
+				add_timed_idea = {
+					idea = idea_moh5
+					days = 100
+				}
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	moh_holder_flag = {
+		context_type = player_context
+		window_name = "moh_holder_flag"
+		
+		visible = {
+			has_country_flag = moh_window_open
+		}
+		
+		triggers = {
+			flag_of_holder_MON_visible = {
+				MON = {
+					exists = yes
+					has_country_flag = holder_of_mandate
+				}
+			}
+			
+			flag_of_holder_KOR_visible = {
+				KOR = {
+					exists = yes
+					has_country_flag = holder_of_mandate
+				}
+			}
+			
+			flag_of_holder_URU_visible = {
+				URU = {
+					exists = yes
+					has_country_flag = holder_of_mandate
+				}
+			}
+			
+			flag_of_holder_SIK_visible = {
+				SIK = {
+					exists = yes
+					has_country_flag = holder_of_mandate
+				}
+			}
+			
+			flag_of_holder_TIB_visible = {
+				TIB = {
+					exists = yes
+					has_country_flag = holder_of_mandate
+				}
+			}
+			
+			flag_of_holder_YUN_visible = {
+				YUN = {
+					exists = yes
+					has_country_flag = holder_of_mandate
+				}
+			}
+			
+			
+			flag_of_holder_ZHA_visible = {
+				ZHA = {
+					exists = yes
+					has_country_flag = holder_of_mandate
+				}
+			}
+			
+			
+			flag_of_holder_HVK_visible = {
+				HVK = {
+					exists = yes
+					has_country_flag = holder_of_mandate
+				}
+			}
+			
+			
+			flag_of_holder_MAN_visible = {
+				MAN = {
+					exists = yes
+					has_country_flag = holder_of_mandate
+				}
+			}
+			
+		}
+		
+		properties = {
+			flag_of_holder_MON = {
+				image = "[MON.GetFlag]"
+			}
+			
+			flag_of_holder_ZHA = {
+				image = "[ZHA.GetFlag]"
+			}
+			
+			flag_of_holder_HVK = {
+				image = "[HVK.GetFlag]"
+			}
+			
+			flag_of_holder_MAN = {
+				image = "[MAN.GetFlag]"
+			}
+			
+			flag_of_holder_KOR = {
+				image = "[KOR.GetFlag]"
+			}
+			
+			flag_of_holder_URU = {
+				image = "[URU.GetFlag]"
+			}
+			
+			flag_of_holder_SIK = {
+				image = "[SIK.GetFlag]"
+			}
+			
+			flag_of_holder_YUN = {
+				image = "[YUN.GetFlag]"
+			}
+			
+			flag_of_holder_TIB = {
+				image = "[MAN.GetFlag]"
+			}
+		}
+	}
+	
+	
+	
+	
+	moh_competitor_flag = {
+		context_type = player_context
+		window_name = "moh_competitor_flag"
+		
+		visible = {
+			has_country_flag = moh_window_open
+		}
+		
+		triggers = {
+			flag_of_competitor_MON_visible = {
+				MON = {
+					exists = yes
+					OR = {
+						has_country_flag = competing_for_mandate
+						has_country_flag = holder_of_mandate
+					}
+				}
+			}
+			
+			flag_of_competitor_TIB_visible = {
+				TIB = {
+					exists = yes
+					OR = {
+						has_country_flag = competing_for_mandate
+						has_country_flag = holder_of_mandate
+					}
+				}
+			}
+			
+			flag_of_competitor_URU_visible = {
+				URU = {
+					exists = yes
+					OR = {
+						has_country_flag = competing_for_mandate
+						has_country_flag = holder_of_mandate
+					}
+				}
+			}
+			
+			flag_of_competitor_YUN_visible = {
+				YUN = {
+					exists = yes
+					OR = {
+						has_country_flag = competing_for_mandate
+						has_country_flag = holder_of_mandate
+					}
+				}
+			}
+			
+			flag_of_competitor_SIK_visible = {
+				SIK = {
+					exists = yes
+					OR = {
+						has_country_flag = competing_for_mandate
+						has_country_flag = holder_of_mandate
+					}
+				}
+			}
+			
+			flag_of_competitor_KOR_visible = {
+				KOR = {
+					exists = yes
+					OR = {
+						has_country_flag = competing_for_mandate
+						has_country_flag = holder_of_mandate
+					}
+				}
+			}
+			
+			flag_of_competitor_ZHA_visible = {
+				ZHA = {
+					exists = yes
+					OR = {
+						has_country_flag = competing_for_mandate
+						has_country_flag = holder_of_mandate
+					}
+				}
+			}
+			
+			flag_of_competitor_HVK_visible = {
+				HVK = {
+					exists = yes
+					OR = {
+						has_country_flag = competing_for_mandate
+						has_country_flag = holder_of_mandate
+					}
+				}
+			}
+			
+			flag_of_competitor_MAN_visible = {
+				MAN = {
+					exists = yes
+					OR = {
+						has_country_flag = competing_for_mandate
+						has_country_flag = holder_of_mandate
+					}
+				}
+			}
+		}
+		
+		properties = {
+			flag_of_competitor_MON = {
+				image = "[MON.GetFlag]"
+			}
+			
+			flag_of_competitor_ZHA = {
+				image = "[ZHA.GetFlag]"
+			}
+			
+			flag_of_competitor_HVK = {
+				image = "[HVK.GetFlag]"
+			}
+			
+			flag_of_competitor_MAN = {
+				image = "[MAN.GetFlag]"
+			}
+			
+			flag_of_competitor_KOR = {
+				image = "[KOR.GetFlag]"
+			}
+			
+			flag_of_competitor_TIB = {
+				image = "[TIB.GetFlag]"
+			}
+			
+			flag_of_competitor_YUN = {
+				image = "[YUN.GetFlag]"
+			}
+			
+			flag_of_competitor_URU = {
+				image = "[URU.GetFlag]"
+			}
+			
+			flag_of_competitor_SIK = {
+				image = "[SIK.GetFlag]"
+			}
+		}
+	}
+}
+

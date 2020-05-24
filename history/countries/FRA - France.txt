@@ -8,6 +8,13 @@ set_technology = {
 	tech_mountaineers = 1
 }
 
+add_ideas = {
+	catalan_autonomy
+	political_divisions
+	triumph_in_europe
+	defensive_generals
+}
+
 #PUPPET
 if = {
 	}
@@ -42,8 +49,8 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Sven Olov Lindholm"
-	picture = "Sven_Olov_Lindholm.dds"
+	name = "Joseph Joffre"
+	picture = "Joseph_Joffre.dds"
 	expire = "1965.1.1"
 	ideology = paternalism
 	traits = {
